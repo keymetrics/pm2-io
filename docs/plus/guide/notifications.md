@@ -168,5 +168,5 @@ Use case example: You can now setup an express server that can receive webhooks,
 
 ## Next Steps
 
-[Issue Dashboard]({{ site.baseurl }}{% link en/plus/guide/issue-dashboard.md %})
+[Issue Dashboard]({{ site.baseurl }}{% link docs/plus/guide/issue-dashboard.md %})
 {: .btn-stylized}

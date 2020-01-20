@@ -41,7 +41,7 @@ Go back to the dashboard, you will have access to realtime metrics of your app.
 
 ## Next Steps
 
-[Discover the Dashboard]({{ site.baseurl }}{% link en/plus/guide/server-apps-overview.md %})
+[Discover the Dashboard]({{ site.baseurl }}{% link docs/plus/guide/server-apps-overview.md %})
 {: .btn-stylized}
 
 

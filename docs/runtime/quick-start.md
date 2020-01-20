@@ -29,7 +29,7 @@ With debian, use the install script:
 apt update && apt install sudo curl && curl -sL https://raw.githubusercontent.com/Unitech/pm2/master/packager/setup.deb.sh | sudo -E bash -
 ```
 
-With docker, follow this [tutorial]({{ site.baseurl }}{% link en/runtime/integration/docker.md %}).
+With docker, follow this [tutorial]({{ site.baseurl }}{% link docs/runtime/integration/docker.md %}).
 
 ### CLI autocompletion
 
@@ -78,7 +78,7 @@ pm2 start app
 pm2 restart app
 ```
 
-You can then setup a [startup script]({{ site.baseurl }}{% link en/runtime/guide/startup-hook.md %}), to automatically start your process list across machine restarts.
+You can then setup a [startup script]({{ site.baseurl }}{% link docs/runtime/guide/startup-hook.md %}), to automatically start your process list across machine restarts.
 
 ## Access your logs
 
@@ -113,5 +113,5 @@ pm2 reload app
 
 ## Next Steps
 
-[Ecosystem File]({{ site.baseurl }}{% link en/runtime/guide/ecosystem-file.md %})
+[Ecosystem File]({{ site.baseurl }}{% link docs/runtime/guide/ecosystem-file.md %})
 {: .btn-stylized}

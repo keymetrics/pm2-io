@@ -187,4 +187,4 @@ pm2 publish
 
 Thanks for finishing this guide.
 
-You can now take a look at the [@pm2/io reference]({{ site.baseurl }}{% link en/plus/reference/pm2io.md %}) to master all the capabilities of PM2 Plus.
+You can now take a look at the [@pm2/io reference]({{ site.baseurl }}{% link docs/plus/reference/pm2io.md %}) to master all the capabilities of PM2 Plus.

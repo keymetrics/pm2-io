@@ -27,5 +27,5 @@ It's pretty much the same view as the `Servers overview` expect there it's only 
 
 ## Next Steps
 
-[Notifications]({{ site.baseurl }}{% link en/plus/guide/notifications.md %})
+[Notifications]({{ site.baseurl }}{% link docs/plus/guide/notifications.md %})
 {: .btn-stylized}

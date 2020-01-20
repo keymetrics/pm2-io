@@ -12,6 +12,6 @@ permalink: "/doc/runtime/best-practices/"
 
 This section gathers production best practices to make your app scalable from the beginning:
 
-- [Environment Variables in Node.js]({{ site.baseurl }}{% link en/runtime/best-practices/environment-variables.md %})
-- [Graceful Shutdown]({{ site.baseurl }}{% link en/runtime/best-practices/graceful-shutdown.md %})
-- [Stateless Application]({{ site.baseurl }}{% link en/runtime/best-practices/stateless-application.md %})
+- [Environment Variables in Node.js]({{ site.baseurl }}{% link docs/runtime/best-practices/environment-variables.md %})
+- [Graceful Shutdown]({{ site.baseurl }}{% link docs/runtime/best-practices/graceful-shutdown.md %})
+- [Stateless Application]({{ site.baseurl }}{% link docs/runtime/best-practices/stateless-application.md %})

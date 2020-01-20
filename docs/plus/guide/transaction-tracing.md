@@ -112,5 +112,5 @@ The impact on performance should be low since there is no heavy logic done in yo
 
 ## Next Steps
 
-[Memory snapshot]({{ site.baseurl }}{% link en/plus/guide/memory-snapshot.md %})
+[Memory snapshot]({{ site.baseurl }}{% link docs/plus/guide/memory-snapshot.md %})
 {: .btn-stylized}

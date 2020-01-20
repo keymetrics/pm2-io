@@ -48,4 +48,4 @@ eb setenv PM2_MACHINE_NAME=aws-eb-server
 
 ## Next Steps
 
-Complete your [dashboard configuration]({{ site.baseurl }}{% link doc/plus/guide/configuration.md %}).
+Complete your [dashboard configuration]({{ site.baseurl }}{% link docs/plus/guide/configuration.md %}).

@@ -41,12 +41,12 @@ module.exports = {
 }
 ```
 
- Learn more about ecosystem file [here]({{ site.baseurl }}{% link en/runtime/guide/ecosystem-file.md %}).
+ Learn more about ecosystem file [here]({{ site.baseurl }}{% link docs/runtime/guide/ecosystem-file.md %}).
 {: .tip}
 
 We recommend to use the cluster mode with Heroku, as each dyno has multi-core CPU.
 
- Learn more about the [cluster mode]({{ site.baseurl }}{% link en/runtime/guide/load-balancing.md %}).
+ Learn more about the [cluster mode]({{ site.baseurl }}{% link docs/runtime/guide/load-balancing.md %}).
 {: .tip}
 
 ### Add PM2 as a module
@@ -125,6 +125,6 @@ That's all! The last line of the deployment will give you the URL where your app
 
 ## Next Steps
 
-Complete your configuration with the [Ecosystem File]({{ site.baseurl }}{% link en/runtime/guide/ecosystem-file.md %}).
+Complete your configuration with the [Ecosystem File]({{ site.baseurl }}{% link docs/runtime/guide/ecosystem-file.md %}).
 
-Monitor your app on a web dashboard, with [PM2 Plus]({{ site.baseurl }}{% link en/plus/integration/heroku.md %}).
+Monitor your app on a web dashboard, with [PM2 Plus]({{ site.baseurl }}{% link docs/plus/integration/heroku.md %}).

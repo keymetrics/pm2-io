@@ -47,7 +47,7 @@ In the context of clustering, you first need to be sure that your application ha
 
 An internal state is typically some local data stored into its processes. It can be an array of websocket connections or a local session-memory for example. Use Redis or other databases instead to share the states between processes.
 
-Follow our [tutorial]({{ site.baseurl }}{% link en/runtime/best-practices/stateless-application.md %}) to make your app stateless.
+Follow our [tutorial]({{ site.baseurl }}{% link docs/runtime/best-practices/stateless-application.md %}) to make your app stateless.
 
 ## 0-seconds downtime reload
 
@@ -73,7 +73,7 @@ To be sure that all requests are properly handled in a reload, you need to be su
 
 A graceful shutdown makes sure to handle all remaining queries before exiting the application and closes all external connections.
 
-Get help to setup graceful shutdown with our [tutorial]({{ site.baseurl }}{% link en/runtime/best-practices/graceful-shutdown.md %}).
+Get help to setup graceful shutdown with our [tutorial]({{ site.baseurl }}{% link docs/runtime/best-practices/graceful-shutdown.md %}).
 
 ## Cluster environment variable
 
@@ -98,5 +98,5 @@ module.exports = {
 
 ## Next Steps
 
-[Development Tools]({{ site.baseurl }}{% link en/runtime/guide/development-tools.md %})
+[Development Tools]({{ site.baseurl }}{% link docs/runtime/guide/development-tools.md %})
 {: .btn-stylized}

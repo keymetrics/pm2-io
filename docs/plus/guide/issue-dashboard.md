@@ -44,5 +44,5 @@ try {
 
 ## Next Steps
 
-[Notifications]({{ site.baseurl }}{% link en/plus/guide/custom-metrics.md %})
+[Notifications]({{ site.baseurl }}{% link docs/plus/guide/custom-metrics.md %})
 {: .btn-stylized}

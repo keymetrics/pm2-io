@@ -11,7 +11,7 @@ permalink: "/doc/enterprise/collector/pm2/"
 
 When you already use PM2 and you want to use PM2 Enterprise, it's really easy to launch our agent since it is directly embed as a dependency.
 
-If you want to monitor your app within a docker container, we advise to use the [standalone agent]({{ site.baseurl }}{% link en/enterprise/collector/standalone.md %})
+If you want to monitor your app within a docker container, we advise to use the [standalone agent]({{ site.baseurl }}{% link docs/enterprise/collector/standalone.md %})
 
 # Requirements
 

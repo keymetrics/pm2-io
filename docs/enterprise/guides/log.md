@@ -98,7 +98,7 @@ package main
 
 import (
   pm2io "github.com/keymetrics/pm2-io-apm-go"
-  "github.com/sirupsen/logrus"
+  "github.com/sirupsdocs/logrus"
 )
 
 // HookLog will send logs to PM2 Plus

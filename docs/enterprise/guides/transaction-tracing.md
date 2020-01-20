@@ -11,7 +11,7 @@ permalink: "/doc/enterprise/guides/transaction-tracing/"
 
 **Note : We have finished our new tracing solution which is now called the Distributed Tracing, we are now deprecating the old Transaction Tracing.**
 
-[See the new Distributed Tracing]({{ site.baseurl }}{% link en/enterprise/guides/distributed-tracing.md %})
+[See the new Distributed Tracing]({{ site.baseurl }}{% link docs/enterprise/guides/distributed-tracing.md %})
 {: .btn-stylized}
 
 

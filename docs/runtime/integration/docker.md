@@ -95,7 +95,7 @@ module.exports = {
 }
 ```
 
- Learn more about ecosystem file [here]({{ site.baseurl }}{% link en/runtime/guide/ecosystem-file.md %}).
+ Learn more about ecosystem file [here]({{ site.baseurl }}{% link docs/runtime/guide/ecosystem-file.md %}).
 {: .tip}
 
 ### Set a Dockerfile
@@ -172,6 +172,6 @@ That's all! Your container is ready to be deployed.
 
 ## Next Steps
 
-Complete your configuration with the [Ecosystem File]({{ site.baseurl }}{% link en/runtime/guide/ecosystem-file.md %}).
+Complete your configuration with the [Ecosystem File]({{ site.baseurl }}{% link docs/runtime/guide/ecosystem-file.md %}).
 
-Monitor your app on a web dashboard, with [PM2 Plus]({{ site.baseurl }}{% link en/plus/integration/docker.md %}).
+Monitor your app on a web dashboard, with [PM2 Plus]({{ site.baseurl }}{% link docs/plus/integration/docker.md %}).

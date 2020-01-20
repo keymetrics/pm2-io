@@ -19,7 +19,7 @@ PM2 Plus allows you to take remote heap memory snapshots of your applications an
 
 ## How to use
 
-In order to use the memory snapshot, you must first [install the snapshot tool]({{ site.baseurl }}{% link en/plus/guide/installation.md %}#install-cpumemory-profiling).
+In order to use the memory snapshot, you must first [install the snapshot tool]({{ site.baseurl }}{% link docs/plus/guide/installation.md %}#install-cpumemory-profiling).
 
 Click to take a heapdump and download the file. It may take some time depending on the weight of the heap file.
 
@@ -33,5 +33,5 @@ To know more about memory analysis check the [chrome devtools tutorial](https://
 
 ## Next Steps
 
-[CPU Profiling]({{ site.baseurl }}{% link en/plus/guide/cpu-profiling.md %})
+[CPU Profiling]({{ site.baseurl }}{% link docs/plus/guide/cpu-profiling.md %})
 {: .btn-stylized}

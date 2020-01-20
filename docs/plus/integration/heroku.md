@@ -11,7 +11,7 @@ permalink: "/doc/plus/integration/heroku/"
 
 In seconds, this tutorial will show you how to monitor a Node.js application with PM2 Plus in Heroku.
 
-We assume that your app has already been wrapped with PM2. If not, follow the [PM2 Heroku Tutorial]({{ site.baseurl }}{% link en/runtime/integration/heroku.md %}).
+We assume that your app has already been wrapped with PM2. If not, follow the [PM2 Heroku Tutorial]({{ site.baseurl }}{% link docs/runtime/integration/heroku.md %}).
 
 ## Create an account
 
@@ -46,7 +46,7 @@ heroku config:set PM2_MACHINE_NAME=heroku-server
 
 ## Next Steps
 
-Complete your [dashboard configuration]({{ site.baseurl }}{% link en/plus/guide/configuration.md %}).
+Complete your [dashboard configuration]({{ site.baseurl }}{% link docs/plus/guide/configuration.md %}).
 
 
 

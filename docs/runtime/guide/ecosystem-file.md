@@ -38,7 +38,7 @@ module.exports = {
 }
 ```
 
-For more information about available properties, check the [ecosystem file reference]({{ site.baseurl }}{% link en/runtime/reference/ecosystem-file.md %}).
+For more information about available properties, check the [ecosystem file reference]({{ site.baseurl }}{% link docs/runtime/reference/ecosystem-file.md %}).
 
 ## Use your ecosystem file
 
@@ -100,5 +100,5 @@ To know more about all the options available checkout [the complete option refer
 
 ## Next Steps
 
-[Process Management]({{ site.baseurl }}{% link en/runtime/guide/process-management.md %})
+[Process Management]({{ site.baseurl }}{% link docs/runtime/guide/process-management.md %})
 {: .btn-stylized}

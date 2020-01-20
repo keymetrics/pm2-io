@@ -55,13 +55,13 @@ Starting your application in production mode is as easy as:
 pm2 start app.js
 ```
 
-And to restarts accross [machine restarts]({{ site.baseurl }}{% link en/runtime/guide/startup-hook.md %}) just type:
+And to restarts accross [machine restarts]({{ site.baseurl }}{% link docs/runtime/guide/startup-hook.md %}) just type:
 
 ```bash
 pm2 startup
 ```
 
-[Quick Start]({{ site.baseurl }}{% link en/runtime/quick-start.md %})
+[Quick Start]({{ site.baseurl }}{% link docs/runtime/quick-start.md %})
 {: .btn-stylized}
 {: .btn-stylized}
 
@@ -84,7 +84,7 @@ Add and delete processes to your process list with `pm2 start` and `pm2 delete`.
 
 Manage your processes with `pm2 start`, `pm2 stop`, `pm2 restart`, `pm2 reload`.
 
-[Process Management]({{ site.baseurl }}{% link en/runtime/guide/process-management.md %})
+[Process Management]({{ site.baseurl }}{% link docs/runtime/guide/process-management.md %})
 {: .btn-stylized}
 
 ## Simple Log Management
@@ -101,7 +101,7 @@ When logs files become too large, log rotation is a must have, that's why there 
 pm2 install pm2-logrotate
 ```
 
-[Log Management]({{ site.baseurl }}{% link en/runtime/guide/log-management.md %})
+[Log Management]({{ site.baseurl }}{% link docs/runtime/guide/log-management.md %})
 {: .btn-stylized}
 
 
@@ -125,7 +125,7 @@ pm2 reload all
 
 Cluster mode is seamlessly supported by all major Node.js frameworks.
 
-[Load-Balancing]({{ site.baseurl }}{% link en/runtime/guide/load-balancing.md %})
+[Load-Balancing]({{ site.baseurl }}{% link docs/runtime/guide/load-balancing.md %})
 {: .btn-stylized}
 
 ## The Ecosystem: Behavioral Application Configuration
@@ -154,7 +154,7 @@ module.exports = {
 }
 ```
 
-[Discover the Ecosystem File]({{ site.baseurl }}{% link en/runtime/guide/ecosystem-file.md %})
+[Discover the Ecosystem File]({{ site.baseurl }}{% link docs/runtime/guide/ecosystem-file.md %})
 {: .btn-stylized}
 
 ## In-terminal monitoring
@@ -175,10 +175,10 @@ PM2 includes a simple but powerful deployment system that can update your applic
 pm2 deploy production
 ```
 
-[Discover PM2 Deployment]({{ site.baseurl }}{% link en/runtime/guide/easy-deploy-with-ssh.md %})
+[Discover PM2 Deployment]({{ site.baseurl }}{% link docs/runtime/guide/easy-deploy-with-ssh.md %})
 {: .btn-stylized}
 
 ## Next Steps
 
-[Quick Start]({{ site.baseurl }}{% link en/runtime/quick-start.md %})
+[Quick Start]({{ site.baseurl }}{% link docs/runtime/quick-start.md %})
 {: .btn-stylized}

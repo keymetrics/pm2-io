@@ -19,5 +19,5 @@ Note that if you are looking for a log storage solution, you can checkout the PM
 
 ## Next Steps
 
-[Modules]({{ site.baseurl }}{% link en/plus/guide/modules.md %})
+[Modules]({{ site.baseurl }}{% link docs/plus/guide/modules.md %})
 {: .btn-stylized}

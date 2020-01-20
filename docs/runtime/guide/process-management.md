@@ -77,7 +77,7 @@ pm2 resurrect
  Your process list is saved into `$HOME/.pm2/dump.pm2`.
 {: .tip}
 
-You can then setup a [startup hook]({{ site.baseurl }}{% link en/runtime/guide/startup-hook.md %}), to automatically start your process list through machine restarts.
+You can then setup a [startup hook]({{ site.baseurl }}{% link docs/runtime/guide/startup-hook.md %}), to automatically start your process list through machine restarts.
 
 ## Manage any application type
 
@@ -126,9 +126,9 @@ The local monitoring tool get you insight about CPU usage, memory usage, loop de
 pm2 monit
 ```
 
-Monitor your app on a web dashboard, with [PM2 Plus]({{ site.baseurl }}{% link en/plus/quick-start.md %})
+Monitor your app on a web dashboard, with [PM2 Plus]({{ site.baseurl }}{% link docs/plus/quick-start.md %})
 
 ## Next Steps
 
-[Log Management]({{ site.baseurl }}{% link en/runtime/guide/log-management.md %})
+[Log Management]({{ site.baseurl }}{% link docs/runtime/guide/log-management.md %})
 {: .btn-stylized}

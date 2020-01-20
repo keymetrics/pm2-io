@@ -121,5 +121,5 @@ setInterval(() => {
 
 ## Next Steps
 
-[Custom Action Center]({{ site.baseurl }}{% link en/plus/guide/custom-actions.md %})
+[Custom Action Center]({{ site.baseurl }}{% link docs/plus/guide/custom-actions.md %})
 {: .btn-stylized}

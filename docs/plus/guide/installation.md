@@ -9,7 +9,7 @@ permalink: "/doc/plus/guide/installation/"
 
 # Installation
 
-We assume that your app have been started with PM2. If not, follow the [Quick Start]({{ site.baseurl }}{% link en/runtime/quick-start.md %}) tutorial.
+We assume that your app have been started with PM2. If not, follow the [Quick Start]({{ site.baseurl }}{% link docs/runtime/quick-start.md %}) tutorial.
 
 ## Create an account
 
@@ -39,5 +39,5 @@ You also may need to whitelist IPs, please allow these ones: 62.210.102.213, 163
 
 ## Next Steps
 
-[Server Apps Overview]({{ site.baseurl }}{% link en/plus/guide/server-apps-overview.md %})
+[Server Apps Overview]({{ site.baseurl }}{% link docs/plus/guide/server-apps-overview.md %})
 {: .btn-stylized}

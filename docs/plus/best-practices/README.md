@@ -12,5 +12,5 @@ permalink: /doc/plus/best-practices/
 
 This section gathers best practices to make your app scalable from the beginning.
 
-- [Metrics Glossary]({{ site.baseurl }}{% link en/plus/best-practices/metrics-glossary.md %})
-- [CPU Profiling]({{ site.baseurl }}{% link en/plus/best-practices/cpu-profiling.md %})
+- [Metrics Glossary]({{ site.baseurl }}{% link docs/plus/best-practices/metrics-glossary.md %})
+- [CPU Profiling]({{ site.baseurl }}{% link docs/plus/best-practices/cpu-profiling.md %})

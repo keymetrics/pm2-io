@@ -60,5 +60,5 @@ If you click on the heatmap, you will directly go on the app dashboad which is d
 
 ## Next Steps
 
-[Application dashboard]({{ site.baseurl }}{% link en/plus/guide/app-dashboard.md %})
+[Application dashboard]({{ site.baseurl }}{% link docs/plus/guide/app-dashboard.md %})
 {: .btn-stylized}
