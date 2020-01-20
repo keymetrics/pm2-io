@@ -1,6 +1,14 @@
 .section-solutions {
+  .metric-kpi {
+    font-size: 25px;
+  }
+  a {
+    color: blue;
+    text-decoration: underline;
+  }
+
   .section-wrapper {
-    margin-top: 100px;
+    margin-top: 130px;
     margin-bottom: 255px;
 
     @media #{$mobile} {
@@ -13,7 +21,6 @@
     text-align: center;
     color: #959595;
     font-size: 19px;
-
     .logos-list {
       width: 100%;
       max-width: 800px;
@@ -50,7 +57,7 @@
   }
 
   .solutions {
-    margin-top: 150px;
+    margin-top: 70px;
 
     h1 {
       font-size: 35px;
@@ -63,6 +70,7 @@
     .solution-grid {
       max-width: 1200px;
       margin: 80px auto;
+      margin-top: 40px;
       display: grid;
       grid-template-columns: repeat(3, 1fr);
       grid-template-rows: auto auto;
@@ -111,7 +119,7 @@
             }
           }
         }
-        
+
         .digonal-border {
           border-bottom: 50px solid white;
           border-left: 325px solid transparent;
@@ -121,6 +129,7 @@
         }
         .card-text {
           padding: 50px;
+          padding-top: 15px;
           font-size: 18px;
           color: #636363;
         }

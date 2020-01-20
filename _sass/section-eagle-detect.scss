@@ -1,14 +1,25 @@
 .section-eagle-detect {
   .section-wrapper {
-    margin-top: 150px;
-    margin-bottom: 150px;
+
+    .metrics-dd {
+      margin-top: 30px;
+
+      .mtrc {
+        font-size: 34px;
+      }
+    }
+
+    margin-top: 200px;
+    margin-bottom: 200px;
     @media #{$mobile} {
       margin-top: 90px;
       margin-bottom: 171px;
     }
-
+    h1 {
+      font-size: 35px;
+    }
     .card {
-      max-width: 1200px;
+      max-width: 1400px;
       margin: auto;
 
       .card-right {

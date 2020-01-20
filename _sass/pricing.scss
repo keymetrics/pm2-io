@@ -5,7 +5,7 @@
     top: 0;
     width: 693px;
   }
-	
+
   section:nth-child(7n + 2) {
   	.section-background {
     	background: linear-gradient(100deg, #2d4d9c, #1c2f55) !important;
@@ -64,8 +64,8 @@
 
         div:nth-child(2n + 1 ){
           background: #f2f2f2;
-        } 
-      } 
+        }
+      }
 
       .price-check {
         width: 690px;
@@ -154,7 +154,7 @@
             height: 120px;
             background: #153256;
             padding: 20px;
-            
+
             .bottom-text {
               position: relative;
               top: 20%;
@@ -204,7 +204,7 @@
           }
         }
 
-        @media #{$mobile} { 
+        @media #{$mobile} {
           grid-template-columns: repeat(1, 1fr);
           grid-template-rows: auto;
           grid-row-gap: 20px;
@@ -224,7 +224,7 @@
         .price-container {
           display: none;
         }
-        .price-check { 
+        .price-check {
           margin-left: 0px;
           .check-mark {
             float: left;
@@ -260,7 +260,7 @@
         .digonal-border {
           border-left-width: calc(100vw - 32px);
         }
-        .price-check { 
+        .price-check {
           .checks{
             div {
               padding: 10px 10px;
@@ -301,7 +301,7 @@
             color: #a0c8f0;
             margin: 30px 0;
           }
-          
+
           &:hover {
             background: linear-gradient(to right, #1078a7, rgba(24, 45, 90, 0.1));
             box-shadow: -12px 0 15px 0px rgba(31, 73, 125, 0.8), -12px 0 0px 0px rgba(24, 45, 90, 0.8);
@@ -320,5 +320,5 @@
       }
     }
   }
-	
+
 }

@@ -2,7 +2,7 @@ $small-mobile: "screen and (max-width: 749px)";
 $not-small-mobile: "(min-width: 750px)";
 $mobile: "screen and (max-width: 999px)";
 $not-mobile: "(min-width: 1000px)";
-$desktop-max-width: 1200px;
+$desktop-max-width: 1400px;
 
 html {
   font-family: "Exo", sans-serif;
@@ -81,8 +81,6 @@ section {
 }
 
 .container {
-  padding-left: 100px;
-
   @media (max-width: 1200px) {
     padding-left: 0px;
   }
@@ -130,20 +128,21 @@ section {
     background: linear-gradient(100deg, #1B1549, #448ccb)
   }
   section:nth-child(7n + 2) & {
-    background: linear-gradient(0deg, transparent 30%, #f4f8f9 60%),
-    linear-gradient(90deg, #f4f8f9, #f4f8f9 50%);
+    background: linear-gradient(100deg, #2d4d9c, #1c2f55) !important;
   }
   section:nth-child(7n + 3) & {
-    background: linear-gradient(100deg, #1c184d, #448ccb)
+    background: linear-gradient(100deg, #1d1840, #3c71a0)
   }
   section:nth-child(7n + 4) & {
-    background: linear-gradient(100deg, #1d1840, #3c71a0)
+    background: linear-gradient(100deg, #2d4d9c, #1c2f55) !important;
+
   }
   section:nth-child(7n + 5) & {
-    background: linear-gradient(100deg, #1b154a, #448ccb)
+    background: linear-gradient(100deg, #1d1840, #3c71a0)
   }
   section:nth-child(7n + 6) & {
-    background: linear-gradient(100deg, #1d1840, #3c71a0)
+    background: linear-gradient(100deg, #2d4d9c, #1c2f55) !important;
+
   }
   section:nth-child(7n) & {
     background: linear-gradient(100deg, #2d4d9c, #1c2f55)
@@ -173,7 +172,7 @@ section {
     background: url(./right-vector.png) no-repeat;
     background-size: contain;
     top: -203px;
-    right: -43vw;
+    right: -49vw;
     height: 840px;
     width: 100%;
     opacity: 0.3;
@@ -337,7 +336,7 @@ section {
 
 .article-card {
   background: white;
-  
+
   img {
     width: 100%;
     height: 300px;
@@ -414,7 +413,7 @@ section {
   align-items: center;
 
   .card-left {
-    min-width: 400px;
+    min-width: 500px;
     align-self: center;
     & ~ .card-left {
       align-self: start;
@@ -431,7 +430,7 @@ section {
 
   .image-wrapper {
     padding: 20px 20px 15px;
-    
+
     img {
       width: 100%;
       box-shadow: 0px 5px 20px #1d1d1d;
@@ -444,8 +443,8 @@ section {
     font-weight: 200;
     margin: 30px 0;
 
-    img, span {
-      vertical-align: text-bottom;
+    img {
+      width: 300px;
     }
 
     span {
@@ -488,7 +487,7 @@ section {
     a {
       width: 360px;
     }
-    
+
   }
 
   .code-block {
@@ -687,6 +686,49 @@ table {
   }
 }
 
+.section-big-msg {
+  .section-wrapper {
+    h2 {
+      font-size: 37px;
+      font-weight: normal;
+    }
+    margin-top: 200px;
+    margin-bottom: 200px;
+    @media #{$mobile} {
+      margin-top: 90px;
+      margin-bottom: 171px;
+    }
+
+    .card {
+      max-width: 1400px;
+      margin: auto;
+
+      .card-right {
+        position: relative;
+
+        &::before {
+          position: absolute;
+          opacity: 0.4;
+          content: "";
+          top: 0;
+          right: 0;
+          width: 100%;
+          height: 100%;
+          background: url(./card-left-vector.png) no-repeat;
+          background-size: contain;
+          transform: rotate(180deg);
+        }
+      }
+
+      @media #{$mobile} {
+        grid-template-columns: 1fr;
+        grid-template-rows: auto;
+        grid-row-gap: 20px;
+
+      }
+    }
+  }
+}
 @import './section-404';
 @import './section-intro';
 @import './section-solutions';
@@ -701,5 +743,6 @@ table {
 @import './pricing';
 @import './blog';
 @import './post';
+@import './page';
 @import './contact';
 @import './footer';

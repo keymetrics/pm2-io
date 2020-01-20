@@ -7,7 +7,27 @@
     .section-wrapper {
       padding-bottom: 100px;
     }
-    
+
+  }
+
+  .container-post {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+    .blog-post {
+      flex: 0.48;
+      background-color: white;
+      min-width: 40%;
+      padding: 40px;
+      margin-bottom: 20px;
+
+      a {
+        &:hover{
+          opacity: 0.6;
+        }
+      }
+    }
   }
 
   .recent-articles {
@@ -23,7 +43,7 @@
       grid-template-columns: 1.5fr 1fr;
       grid-column-gap: 80px;
       align-items: center;
-      
+
       @media #{$mobile} {
         grid-template-columns: 1fr 1fr;
         grid-column-gap: 30px;
@@ -42,11 +62,11 @@
       }
     }
   }
-  
+
 
   .code-and-button {
     text-align: center;
-    
+
     .button {
       max-width: 380px;
       width: 100%;
