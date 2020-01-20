@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: docs
 title:  Snippet API | Frontend Monitoring | PM2 Enterprise Documentation
 menu: starter
 lang: en
@@ -53,7 +53,7 @@ argument, and returning a boolean reflcting whether this URL should be ignored o
 
 This is used in multiple ways:
 
-* If the current page location is ignored, no data will be collected at all.
+* If the current docs location is ignored, no data will be collected at all.
 * If an issue is caused by a script loaded from an ignored location, the issue won't be reported.
 * This rule also applies to slow HTTP queries warnings.
 
@@ -67,7 +67,7 @@ apm.addIgnoreURLRule(url => {
 
 ### `apm.reportTimings()`
 
-Automatically report various metrics from the current page.  It will track the time your page takes
+Automatically report various metrics from the current docs.  It will track the time your docs takes
 to load, among other performance metrics.
 
 ### `apm.reportIssues(options)`

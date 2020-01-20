@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: docs
 title:  Installation | Frontend Monitoring  | PM2 Enterprise Documentation
 menu: starter
 lang: en
@@ -9,7 +9,7 @@ permalink: "/doc/enterprise/frontend-monitoring/install/"
 
 # Frontend Monitoring installation
 
-First, connect to your PM2 Enterprise dashboard.  Go to your bucket, and click on **Frontend** at the top of the page.
+First, connect to your PM2 Enterprise dashboard.  Go to your bucket, and click on **Frontend** at the top of the docs.
 
 ![Frontend monitoring menu]({{ site.baseurl }}{% link img/enterprise/frontend-1.png %})
 

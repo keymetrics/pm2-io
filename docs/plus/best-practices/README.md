@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: docs
 title: Best Practices | PM2 Plus Documentation
 menu: starter
 lang: en

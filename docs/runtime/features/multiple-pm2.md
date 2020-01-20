@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: docs
 title: Multiple PM2 Runtime | Features | PM2 Documentation
 description: PM2 Inception
 lang: en

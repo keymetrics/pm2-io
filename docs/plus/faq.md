@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: docs
 title: FAQ | PM2 Plus Documentation
 menu: starter
 lang: en

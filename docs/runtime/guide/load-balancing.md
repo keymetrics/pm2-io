@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: docs
 title: Load-Balancing | Guide | PM2 Documentation
 menu: starter
 lang: en

@@ -3,7 +3,7 @@
 
 # Using PM2 with Now.sh
 
-This page will guide you step by step through the PM2 integration with Now.sh.
+This docs will guide you step by step through the PM2 integration with Now.sh.
 
 ## Prepare your app
 

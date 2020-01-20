@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: docs
 title: Easy Deploy With SSH | Guide | PM2 Documentation
 menu: starter
 lang: en

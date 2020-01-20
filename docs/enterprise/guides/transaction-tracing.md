@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: docs
 title: Transaction Tracing | Guide | PM2 Enterprise Documentation
 menu: starter
 lang: en
@@ -107,7 +107,7 @@ The impact on performance should be low since there is no heavy logic done in yo
   - UUID v1/v4 with or without dash (`/[0-9a-f]{8}-[0-9a-f]{4}-[14][0-9a-f]{3}-[0-9a-f]{4}-[0-9a-f]{12}|[0-9a-f]{12}[14][0-9a-f]{19}/`)
   - any number (`/\d+/`)
   - suit of number and letter (`/[0-9]+[a-z]+|[a-z]+[0-9]+/`): this one is used by mongo for document id
-  - most SEO optimized webpages (articles, blog posts...): `/((?:[0-9a-zA-Z]+[@\-_.][0-9a-zA-Z]+|[0-9a-zA-Z]+[@\-_.]|[@\-_.][0-9a-zA-Z]+)+)/`
+  - most SEO optimized webdocss (articles, blog posts...): `/((?:[0-9a-zA-Z]+[@\-_.][0-9a-zA-Z]+|[0-9a-zA-Z]+[@\-_.]|[@\-_.][0-9a-zA-Z]+)+)/`
 
 - This feature has some known problems with other modules:
   - `request-promise`: clears the node cache and requires a new clean version of the `http` module. To solve this, require `http` again after requiring `request-promise` to get the correctly wrapped `http` module.

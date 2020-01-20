@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: docs
 title: Stateless Application | Best Practices | PM2 Documentation
 menu: starter
 lang: en

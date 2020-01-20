@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: docs
 title: Memory Threshold Auto Reload | Features | PM2 Documentation
 description: Fast way to temporarily fix memory leaks
 lang: en

@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: docs
 title: Restart Strategies | Features | PM2 Documentation
 description: Different Restart Strategies in case of crash
 lang: en

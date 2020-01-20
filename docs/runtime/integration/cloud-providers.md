@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: docs
 title: Cloud Providers | Integration | PM2 Documentation
 menu: starter
 lang: en

@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: docs
 title: Prometheus Integration | Guides | PM2 Enterprise Documentation
 menu: starter
 lang: en
@@ -44,7 +44,7 @@ A part from that no specific action is required from you to ensure best practice
 
 * Why do we need to still host a prometheus instance ourselves?
 
-  Because prometheus is what is called `pull based` monitoring, that means it the server that request the metrics to the client. We however are `push based` which means that you receive data from our agents that collect the metrics for us. So basically it's by design really hard to do that in our case (it would be easier if we were `pull based`). Also from a security point, you would need to expose your metrics page to the internet so our servers can reach them which is a nightmare in a security point of view.
+  Because prometheus is what is called `pull based` monitoring, that means it the server that request the metrics to the client. We however are `push based` which means that you receive data from our agents that collect the metrics for us. So basically it's by design really hard to do that in our case (it would be easier if we were `pull based`). Also from a security point, you would need to expose your metrics docs to the internet so our servers can reach them which is a nightmare in a security point of view.
 
 ## Common Issues
 

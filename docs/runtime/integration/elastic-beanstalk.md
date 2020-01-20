@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: docs
 title: Elastic Beanstalk | Integration | PM2 Documentation
 menu: starter
 lang: en
@@ -9,7 +9,7 @@ permalink: "/doc/runtime/integration/elastic-beanstalk/"
 
 # Using PM2 with AWS Elastic Beanstalk
 
-This page will guide you step by step through the PM2 integration in an AWS Elastic Beanstalk environment.
+This docs will guide you step by step through the PM2 integration in an AWS Elastic Beanstalk environment.
 
 We will use Git and the Elastic Beanstalk CLI.
 

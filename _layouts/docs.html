@@ -25,8 +25,9 @@
                 <input type="text" placeholder="Search" />
                 <i class="fa fa-search"></i>
               </div>
+
               <ul>
-                {% for item in site.data.nav %}
+                {% for item in site.data.nav.plus %}
                 <li class="nav-section {% if page.url contains item.url %}active{% endif %}">
 
                   <a class="nav-section-title" href="{{item.url | escape}}">{{ item.title | escape }}</a>
@@ -54,10 +55,6 @@
 
             {{ content }}
 
-            <a class="edit-page-button" target="_blank" href="{{site.repo_url}}/tree/master/{{page.path}}" title="Edit Page">
-              <i class="fa fa-2x fa-github" aria-hidden="true"></i>
-              Contribute to this page
-            </a>
 
             <div id="disqus_thread"></div>
             <script type="text/javascript">

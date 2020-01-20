@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: docs
 title: Overview | PM2 Enterprise Documentation
 menu: starter
 lang: en
@@ -8,20 +8,15 @@ hide_comments: true
 permalink: "/doc/enterprise/overview//"
 ---
 
-<p align="center">
-    <img class="pm2-logo" src="{{ site.baseurl }}/img/enterprise/enterprise-black.png" alt="pm2 logo">
-</p>
-<p align="center">
-    <b>P</b>(rocess) <b>M</b>(anager) <b>2</b><br/>
-    <i>Enterprise</i>
-</p>
+<br/>
+<h3>Welcome to the <b>PM2 Enterprise</b> documentation</h3>
 
 **PM2 Enterprise** is an advanced Node.js toolset that is convenient for high scale or critical Node.js services.
 It answers to the need of companies willing to bet a lot on Node.js and be confident on their technology switch.
 
 Here a quick description of each of the Enterprise feature currently available in the PM2 Enterprise product:
 
-- Dashboards: 
+- Dashboards:
 If you have a lot of metrics that you want to track, you might have the problem to display a lot of them the way you want. Each dashboard is customizable, each component on it is configurable (apps/servers/metrics etc) and moveable anywhere on the dashboard.
 
 - Alerting:

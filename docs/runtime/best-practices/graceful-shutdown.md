@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: docs
 title: Graceful Shutdown | Best Practices | PM2 Documentation
 menu: starter
 lang: en

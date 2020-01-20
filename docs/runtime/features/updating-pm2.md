@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: docs
 title: Updating PM2 | Features | PM2 Documentation
 description: Updating is a matter of 3 commands
 lang: en

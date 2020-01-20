@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: docs
 title: Heroku | Integration | PM2 Plus Documentation
 menu: starter
 lang: en

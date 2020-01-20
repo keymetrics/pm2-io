@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: docs
 title: Notifications | Guide | PM2 Plus Documentation
 menu: starter
 lang: en
@@ -121,7 +121,7 @@ The Slack integration allows you to receive exceptions and event notifications s
 
 First you need to get the Slack URL and to setup an incoming Webhook. More details on how to set this up can be found [here](https://my.slack.com/services/new/incoming-webhook/).
 
-Then go to the notification page `Settings > Alerts` and insert the webhook into the field. Enable and click on update.
+Then go to the notification docs `Settings > Alerts` and insert the webhook into the field. Enable and click on update.
 
 Check if you successfully received a notification into your slack channel confirming that it has been configured.
 

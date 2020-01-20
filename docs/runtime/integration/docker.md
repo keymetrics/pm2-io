@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: docs
 title: Docker | Integration | PM2 Documentation
 menu: starter
 lang: en

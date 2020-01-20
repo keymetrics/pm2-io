@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: docs
 title: Heroku | Integration | PM2 Documentation
 menu: starter
 lang: en
@@ -9,7 +9,7 @@ permalink: "/doc/runtime/integration/heroku/"
 
 # Using PM2 with Heroku
 
-This page will guide you step by step through the PM2 integration with Heroku.
+This docs will guide you step by step through the PM2 integration with Heroku.
 
 We will use Git and the Heroku CLI.
 

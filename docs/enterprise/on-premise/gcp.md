@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: docs
 title: Deployment on Google Cloud Plateform | On-Premise | PM2 Enterprise Documentation
 menu: starter
 lang: en

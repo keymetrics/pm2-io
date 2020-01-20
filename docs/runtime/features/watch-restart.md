@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: docs
 title: Watch & Restart | Features | PM2 Documentation
 description: Watch & Restart application on file change
 lang: en

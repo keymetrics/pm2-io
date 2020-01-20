@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: docs
 title: CLI | Reference | PM2 Documentation
 menu: starter
 lang: en

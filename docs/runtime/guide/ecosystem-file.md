@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: docs
 title: Ecosystem File | Guide | PM2 Documentation
 menu: starter
 lang: en

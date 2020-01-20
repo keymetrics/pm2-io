@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: docs
 title: Memory Threshold Auto Reload | Features | PM2 Documentation
 description: Set a memory limit and allow soft reloads without downtime
 lang: en

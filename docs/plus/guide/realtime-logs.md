@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: docs
 title: Realtime logs | Guide | PM2 Plus Documentation
 menu: starter
 lang: en

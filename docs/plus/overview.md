@@ -1,24 +1,13 @@
 ---
-layout: page
+layout: docs
 title: Overview | PM2 Plus Documentation
 menu: starter
 lang: en
 section: plus
 permalink: "/doc/plus/overview/"
 ---
-
-<p align="center">
-    <img class="pm2-logo" src="{{ site.baseurl }}/img/plus/plus-black.png" alt="pm2 logo">
-</p>
-<p align="center">
-    <b>P</b>(rocess) <b>M</b>(anager) <b>2</b><br/>
-    <i>Plus</i>
-</p>
-
 <br/>
-<center>
-Welcome to the Overview of <b>PM2 Plus</b>!
-</center>
+<h3>Welcome to the <b>PM2 Plus</b> documentation</h3>
 
 Once you go serious about production, you need to make sure that your application is running properly, without bugs, without performance issues and without downtimes.
 
@@ -109,7 +98,7 @@ No need to ssh into your servers and use `pm2 logs` anymore, everything is on th
 
 ![modules]({{ site.baseurl }}{% link img/plus/modules.png %})
 
-Extend the capabilities of the PM2 Plus dashboard by using external modules listed in our module page.
+Extend the capabilities of the PM2 Plus dashboard by using external modules listed in our module docs.
 Monitor your databases metrics to know what going on in your infrastructure
 
 [Modules]({{ site.baseurl }}{% link docs/plus/guide/modules.md %})

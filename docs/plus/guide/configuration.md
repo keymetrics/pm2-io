@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: docs
 title: Configuration | Guide | PM2 Plus Documentation
 menu: starter
 lang: en

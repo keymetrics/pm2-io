@@ -1,1 +1,1 @@
-find . -type f -name "*.md"|xargs sed -i 's/en\//docs\//g'
+find . -type f -name "*.md"|xargs sed -i 's/\/doc\//\/docs\//g'

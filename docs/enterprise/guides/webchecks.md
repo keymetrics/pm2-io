@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: docs
 title: Webchecks | Guide | PM2 Enterprise Documentation
 menu: starter
 lang: en
@@ -72,7 +72,7 @@ ttfb|ms|http,https,tcp|false|How much time the client waited for the first byte 
 firstMeaningfulPaint|ms|http,https|true|How much time the user waited to see website rendered in his browser
 domInteractive|ms|http,https|true|How much time the user need to wait before interact in his browser
 domProcessing|ms|http,https|true|Time used to process DOM by the browser
-pageRendering|ms|http,https|true|Time used to render the page from the ttfb
+docsRendering|ms|http,https|true|Time used to render the docs from the ttfb
 
 Like in the **Alerting** feature, you can setup a custom threshold depending on the metric.
 By default we only send an alert when value cross the treshold (and not everytime it's above it), you can change it via the `Trigger` configuration of each alert.

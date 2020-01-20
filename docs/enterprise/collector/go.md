@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: docs
 title: Golang Agent | Guides | PM2 Enterprise Documentation
 menu: starter
 lang: en

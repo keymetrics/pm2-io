@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: docs
 title: Deployment on Amazon Web Service | On-Premise | PM2 Enterprise Documentation
 menu: starter
 lang: en
