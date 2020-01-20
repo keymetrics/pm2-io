@@ -89,7 +89,7 @@ section {
 .section-background {
   position: absolute;
   pointer-events: none;
-  top: -500px;
+  top: -650px;
   bottom: -500px;
   left: 0;
   right: 0;
@@ -188,7 +188,7 @@ section {
   .hexagon-1 {
     width: 1600px;
     height: 600px;
-    top: -120px;
+    top: -20px;
     right: -5%;
   }
   .hexagon-2 {
@@ -196,13 +196,13 @@ section {
     opacity: 0.07;
     width: 1600px;
     height: 820px;
-    top: -340px;
+    top: -250px;
     left: 32%;
   }
   .hexagon-3 {
     width: 1600px;
     height: 600px;
-    top: -150px;
+    top: -50px;
     right: 140px;
   }
   .hexagon-4 {
@@ -210,7 +210,7 @@ section {
     opacity: 0.07;
     width: 1600px;
     height: 740px;
-    top: -216px;
+    top: -116px;
     left: 53%;
   }
   .hexagon-5 {
@@ -219,14 +219,14 @@ section {
     filter: invert(1);
     width: 1600px;
     height: 740px;
-    top: -219px;
+    top: -119px;
     left: -17%;
   }
   .hexagon-6 {
     opacity: 0.07;
     width: 1600px;
     height: 620px;
-    top: -9px;
+    top: 90px;
     right: 37%;
   }
   .hexagon-7 {
@@ -235,26 +235,26 @@ section {
     opacity: 0.03;
     width: 1800px;
     height: 870px;
-    top: -360px;
+    top: -260px;
     left: -14%;
   }
   .hexagon-8 {
     opacity: 0.07;
     width: 1600px;
     height: 620px;
-    top: -100px;
+    top: 0;
     right: 35%;
   }
   .hexagon-9 {
     width: 1600px;
     height: 370px;
-    top: 190px;
+    top: 290px;
     right: -80%;
   }
   .hexagon-10 {
     width: 1600px;
     height: 410px;
-    top: -112px;
+    top: 75px;
     right: 10%;
   }
   .hexagon-11 {
@@ -262,7 +262,7 @@ section {
     opacity: 0.05;
     width: 1600px;
     height: 730px;
-    top: -539px;
+    top: -439px;
     left: 83%;
   }
 }
@@ -692,11 +692,10 @@ table {
       font-size: 37px;
       font-weight: normal;
     }
-    margin-top: 200px;
-    margin-bottom: 200px;
+    margin-top: 50px;
+    margin-bottom: 350px;
     @media #{$mobile} {
-      margin-top: 90px;
-      margin-bottom: 171px;
+      margin-top: 0px;
     }
 
     .card {

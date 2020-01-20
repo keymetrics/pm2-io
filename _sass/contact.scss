@@ -28,7 +28,7 @@
 
 	section:nth-child(7n + 1) {
 		.section-wrapper {
-			margin-bottom: 350px !important;
+			margin-bottom: 500px !important;
 		}
 	}
   section:nth-child(7n + 2) {
@@ -36,7 +36,7 @@
     	background: linear-gradient(100deg, #2d4d9c, #1c2f55) !important;
     }
     .section-wrapper {
-			margin-bottom: 200px !important;
+			margin-bottom: 350px !important;
 		}
   }
   .form-wrapper {
@@ -44,7 +44,7 @@
   	background: #f7f7f7;
   	padding: 5px 30px;
   	margin: auto;
-  	margin-top: -350px;
+  	margin-top: -500px;
   }
 
   .form-field {

@@ -3,10 +3,7 @@ footer {
   .section-wrapper {
     max-width: 1200px;
     margin: auto;
-    margin-top: 154px;
-    @media #{$mobile} {
-      margin-top: 104px;
-    }
+    margin-top: 0px;
   }
 
   .doc-links {
