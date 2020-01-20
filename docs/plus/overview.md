@@ -4,7 +4,7 @@ title: Overview | PM2 Plus Documentation
 menu: starter
 lang: en
 section: plus
-permalink: "/en/plus/overview/"
+permalink: "/doc/plus/overview/"
 ---
 
 <p align="center">

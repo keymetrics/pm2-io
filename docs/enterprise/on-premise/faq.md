@@ -4,7 +4,7 @@ title: FAQ | On-Premise | PM2 Enterprise Documentation
 menu: starter
 lang: en
 section: enterprise
-permalink: "/en/enterprise/on-premise/faq/"
+permalink: "/doc/enterprise/on-premise/faq/"
 ---
 
 # FAQ

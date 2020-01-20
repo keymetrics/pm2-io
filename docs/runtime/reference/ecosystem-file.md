@@ -4,7 +4,7 @@ title: Ecosystem File | Reference | PM2 Documentation
 menu: starter
 lang: en
 section: runtime
-permalink: "/en/runtime/reference/ecosystem-file/"
+permalink: "/doc/runtime/reference/ecosystem-file/"
 ---
 
 # Ecosystem file reference

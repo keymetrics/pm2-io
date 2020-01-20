@@ -5,7 +5,7 @@ menu: starter
 lang: en
 section: runtime
 hide_comments: true
-permalink: "/en/runtime/best-practices/"
+permalink: "/doc/runtime/best-practices/"
 ---
 
 # Production Best Practices

@@ -5,7 +5,7 @@ menu: starter
 lang: en
 section: enterprise
 hide_comments: true
-permalink: "/en/enterprise/frontend-monitoring/overview/"
+permalink: "/doc/enterprise/frontend-monitoring/overview/"
 ---
 
 # Frontend Monitoring overview

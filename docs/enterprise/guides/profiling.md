@@ -5,7 +5,7 @@ menu: starter
 lang: en
 section: enterprise
 hide_comments: true
-permalink: "/en/enterprise/guides/profiling/"
+permalink: "/doc/enterprise/guides/profiling/"
 ---
 
 # Overview

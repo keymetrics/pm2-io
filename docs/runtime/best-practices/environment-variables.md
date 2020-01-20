@@ -4,7 +4,7 @@ title: Environment Variables | Best Practices | PM2 Documentation
 menu: starter
 lang: en
 section: runtime
-permalink: "/en/runtime/best-practices/environment-variables/"
+permalink: "/doc/runtime/best-practices/environment-variables/"
 ---
 
 # Environment Variables Management
@@ -88,7 +88,7 @@ $ pm2 restart/reload ecosystem.config.js [--env production]
 
 A common convention in Node.js is that the NODE_ENV environment variable specifies the environment in which an application is running (usually, development or production).
 
-For example, with express, setting NODE_ENV to “production” can improve performance by a factor of 3 according to the [documentation](https://expressjs.com/en/advanced/best-practice-performance.html#set-node_env-to-production). This enables:
+For example, with express, setting NODE_ENV to “production” can improve performance by a factor of 3 according to the [documentation](https://expressjs.com/doc/advanced/best-practice-performance.html#set-node_env-to-production). This enables:
 - Cache for view templates.
 - Cache for CSS files generated from CSS extensions.
 - Generate less verbose error messages.

@@ -4,7 +4,7 @@ title: Easy Deploy With SSH | Guide | PM2 Documentation
 menu: starter
 lang: en
 section: runtime
-permalink: "/en/runtime/guide/easy-deploy-with-ssh/"
+permalink: "/doc/runtime/guide/easy-deploy-with-ssh/"
 ---
 
 # Easy Deploy with SSH

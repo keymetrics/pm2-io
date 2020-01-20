@@ -4,7 +4,7 @@ title: Restart Strategies | Features | PM2 Documentation
 description: Different Restart Strategies in case of crash
 lang: en
 section: runtime
-permalink: "/en/runtime/features/restart-strategies/"
+permalink: "/doc/runtime/features/restart-strategies/"
 ---
 
 ## Exponential Backoff Restart Delay
@@ -62,11 +62,11 @@ module.exports = [{
 
 ## Memory based reload strategy
 
-Checkout [https://pm2.io/doc/en/runtime/features/memory-limit/](https://pm2.io/doc/en/runtime/features/memory-limit/)
+Checkout [https://pm2.io/doc/doc/runtime/features/memory-limit/](https://pm2.io/doc/doc/runtime/features/memory-limit/)
 
 ## 0second Downtime Reload
 
-Checkout the cluster mode to get [this behavior](/doc/en/runtime/guide/load-balancing/#0-seconds-downtime-reload)
+Checkout the cluster mode to get [this behavior](/doc/doc/runtime/guide/load-balancing/#0-seconds-downtime-reload)
 
 ## No Auto Restart
 

@@ -4,7 +4,7 @@ title: Docker | Integration | PM2 Plus Documentation
 menu: starter
 lang: en
 section: plus
-permalink: "/en/plus/integration/docker/"
+permalink: "/doc/plus/integration/docker/"
 ---
 
 # Monitor your Node.js app in a Docker container

@@ -4,7 +4,7 @@ title: CPU Profiling | Guide | PM2 Plus Documentation
 menu: starter
 lang: en
 section: plus
-permalink: "/en/plus/guide/cpu-profiling/"
+permalink: "/doc/plus/guide/cpu-profiling/"
 ---
 
 # Overview

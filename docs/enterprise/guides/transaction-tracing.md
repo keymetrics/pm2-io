@@ -4,7 +4,7 @@ title: Transaction Tracing | Guide | PM2 Enterprise Documentation
 menu: starter
 lang: en
 section: enterprise
-permalink: "/en/enterprise/guides/transaction-tracing/"
+permalink: "/doc/enterprise/guides/transaction-tracing/"
 ---
 
 # Transaction tracing

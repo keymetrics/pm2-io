@@ -4,7 +4,7 @@ title: Reference | PM2 Plus Documentation
 menu: starter
 lang: en
 section: plus
-permalink: "/en/plus/reference/pm2io/"
+permalink: "/doc/plus/reference/pm2io/"
 ---
 
 # The @pm2/io Library

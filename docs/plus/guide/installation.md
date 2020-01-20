@@ -4,7 +4,7 @@ title: Installation | Guide | PM2 Plus Documentation
 menu: starter
 lang: en
 section: plus
-permalink: "/en/plus/guide/installation/"
+permalink: "/doc/plus/guide/installation/"
 ---
 
 # Installation

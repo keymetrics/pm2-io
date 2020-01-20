@@ -4,7 +4,7 @@ title:  Installation | Frontend Monitoring  | PM2 Enterprise Documentation
 menu: starter
 lang: en
 section: enterprise
-permalink: "/en/enterprise/frontend-monitoring/install/"
+permalink: "/doc/enterprise/frontend-monitoring/install/"
 ---
 
 # Frontend Monitoring installation

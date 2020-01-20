@@ -4,14 +4,14 @@ title: Elastic Beanstalk | Integration | PM2 Plus Documentation
 menu: starter
 lang: en
 section: plus
-permalink: "/en/plus/integration/elastic-beanstalk/"
+permalink: "/doc/plus/integration/elastic-beanstalk/"
 ---
 
 # Monitor your Node.js app in AWS Elastic Beanstalk
 
 In seconds, this tutorial will show you how to monitor a Node.js application with PM2 Plus in AWS Elastic Beanstalk.
 
-We assume that your app has already been wrapped with PM2. If not, follow our [PM2 AWS Elastic Beanstalk Tutorial]({{ site.baseurl }}{% link en/runtime/integration/elastic-beanstalk.md %}).
+We assume that your app has already been wrapped with PM2.
 
 ## Create an account on PM2 Plus
 
@@ -48,8 +48,4 @@ eb setenv PM2_MACHINE_NAME=aws-eb-server
 
 ## Next Steps
 
-Complete your [dashboard configuration]({{ site.baseurl }}{% link en/plus/guide/configuration.md %}).
-
-
-
-
+Complete your [dashboard configuration]({{ site.baseurl }}{% link doc/plus/guide/configuration.md %}).

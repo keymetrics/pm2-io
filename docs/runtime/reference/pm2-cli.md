@@ -4,7 +4,7 @@ title: CLI | Reference | PM2 Documentation
 menu: starter
 lang: en
 section: runtime
-permalink: "/en/runtime/reference/pm2-cli/"
+permalink: "/doc/runtime/reference/pm2-cli/"
 ---
 
 # CLI reference

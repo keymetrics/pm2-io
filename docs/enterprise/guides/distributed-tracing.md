@@ -4,7 +4,7 @@ title: Distributed Tracing | Guide | PM2 Enterprise Documentation
 menu: starter
 lang: en
 section: enterprise
-permalink: "/en/enterprise/guides/distributed-tracing/"
+permalink: "/doc/enterprise/guides/distributed-tracing/"
 ---
 
 # Overview

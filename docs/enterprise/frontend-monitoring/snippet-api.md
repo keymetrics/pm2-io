@@ -4,7 +4,7 @@ title:  Snippet API | Frontend Monitoring | PM2 Enterprise Documentation
 menu: starter
 lang: en
 section: enterprise
-permalink: "/en/enterprise/frontend-monitoring/snippet-api/"
+permalink: "/doc/enterprise/frontend-monitoring/snippet-api/"
 ---
 
 # Frontend Monitoring snippet API

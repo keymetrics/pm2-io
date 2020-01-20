@@ -5,7 +5,7 @@ menu: starter
 lang: en
 section: enterprise
 hide_comments: true
-permalink: "/en/enterprise/guides/alerting/"
+permalink: "/doc/enterprise/guides/alerting/"
 ---
 
 # Overview

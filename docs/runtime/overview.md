@@ -4,7 +4,7 @@ title: Overview | PM2 Documentation
 menu: starter
 lang: en
 section: runtime
-permalink: "/en/runtime/overview/"
+permalink: "/doc/runtime/overview/"
 ---
 
 <p align="center">

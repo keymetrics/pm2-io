@@ -5,7 +5,7 @@ menu: starter
 lang: en
 section: enterprise
 hide_comments: true
-permalink: "/en/enterprise/on-premise/"
+permalink: "/doc/enterprise/on-premise/"
 redirect_to:
   - https://www.github.com/keymetrics/on-premise
 ---

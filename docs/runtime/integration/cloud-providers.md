@@ -4,7 +4,7 @@ title: Cloud Providers | Integration | PM2 Documentation
 menu: starter
 lang: en
 section: runtime
-permalink: "/en/runtime/integration/cloud-providers/"
+permalink: "/doc/runtime/integration/cloud-providers/"
 ---
 
 # Using PM2 in a Cloud Provider

@@ -4,7 +4,7 @@ title: CPU Profiling | Best Practices | PM2 Plus Documentation
 menu: starter
 lang: en
 section: plus
-permalink: /en/plus/best-practices/cpu-profiling/
+permalink: /doc/plus/best-practices/cpu-profiling/
 ---
 
 # CPU Profiling

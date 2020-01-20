@@ -4,7 +4,7 @@ title: Notifications | Guide | PM2 Plus Documentation
 menu: starter
 lang: en
 section: plus
-permalink: "/en/plus/guide/notifications/"
+permalink: "/doc/plus/guide/notifications/"
 ---
 
 # Notifications

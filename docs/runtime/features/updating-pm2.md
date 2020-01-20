@@ -4,7 +4,7 @@ title: Updating PM2 | Features | PM2 Documentation
 description: Updating is a matter of 3 commands
 lang: en
 section: runtime
-permalink: "/en/runtime/features/updating-pm2/"
+permalink: "/doc/runtime/features/updating-pm2/"
 ---
 
 ## Updating PM2

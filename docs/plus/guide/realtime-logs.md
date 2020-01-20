@@ -4,7 +4,7 @@ title: Realtime logs | Guide | PM2 Plus Documentation
 menu: starter
 lang: en
 section: plus
-permalink: "/en/plus/guide/realtime-logs/"
+permalink: "/doc/plus/guide/realtime-logs/"
 ---
 
 # Realtime Logs

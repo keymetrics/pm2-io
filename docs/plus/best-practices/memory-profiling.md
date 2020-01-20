@@ -4,7 +4,7 @@ title: Memory Profiling | Best Practices | PM2 Plus Documentation
 menu: starter
 lang: en
 section: plus
-permalink: /en/plus/best-practices/memory-profiling/
+permalink: /doc/plus/best-practices/memory-profiling/
 ---
 
 # Memory Profiling

@@ -4,7 +4,7 @@ title: Backend | On-Premise | PM2 Enterprise Documentation
 menu: starter
 lang: en
 section: enterprise
-permalink: "/en/enterprise/backend/"
+permalink: "/doc/enterprise/backend/"
 ---
 
 
@@ -18,7 +18,7 @@ In all the case, the procedure to setup it is always the same, you need to injec
 
 - `KM_DEDICATED_KEY`: the license key given on https://enterprise.keymetrics.io
 - `KM_ELASTICSEARCH_URL`: the url to the elasticsearch server (always need to have the port in the URI), example: 
-    - `{elasticsearch_ip}:9200` or `elasticsearch1:9200 elasticsearch2:9200` (it will split by space then give an array to the elasticsearch client) [exact format defined in **hosts** property](https://www.elastic.co/guide/en/elasticsearch/client/javascript-api/current/configuration.html#config-options)
+    - `{elasticsearch_ip}:9200` or `elasticsearch1:9200 elasticsearch2:9200` (it will split by space then give an array to the elasticsearch client) [exact format defined in **hosts** property](https://www.elastic.co/guide/doc/elasticsearch/client/javascript-api/current/configuration.html#config-options)
 - `KM_MONGO_URL`: the URI used to connect to mongodb, example:
     - `mongodb://{mongodb_ip}/keymetrics` [docs](https://docs.mongodb.com/manual/reference/connection-string/)
 - `KM_REDIS_URL`: the URI used to connect to redis, example: 

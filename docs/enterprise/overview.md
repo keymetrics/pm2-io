@@ -5,7 +5,7 @@ menu: starter
 lang: en
 section: enterprise
 hide_comments: true
-permalink: "/en/enterprise/overview//"
+permalink: "/doc/enterprise/overview//"
 ---
 
 <p align="center">

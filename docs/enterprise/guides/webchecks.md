@@ -4,7 +4,7 @@ title: Webchecks | Guide | PM2 Enterprise Documentation
 menu: starter
 lang: en
 section: enterprise
-permalink: "/en/enterprise/guides/webchecks/"
+permalink: "/doc/enterprise/guides/webchecks/"
 ---
 
 # Webchecks

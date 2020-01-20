@@ -4,7 +4,7 @@ title: App Dashboard | Guide | PM2 Plus Documentation
 menu: starter
 lang: en
 section: plus
-permalink: "/en/plus/guide/app-dashboard/"
+permalink: "/doc/plus/guide/app-dashboard/"
 ---
 
 # Application Dashboard

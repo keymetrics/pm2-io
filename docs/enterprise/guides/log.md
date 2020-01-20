@@ -5,7 +5,7 @@ menu: starter
 lang: en
 section: enterprise
 hide_comments: true
-permalink: "/en/enterprise/guides/log/"
+permalink: "/doc/enterprise/guides/log/"
 ---
 
 # Overview
