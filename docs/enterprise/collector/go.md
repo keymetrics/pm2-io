@@ -4,7 +4,7 @@ title: Golang Agent | Guides | PM2 Enterprise Documentation
 menu: starter
 lang: en
 section: enterprise
-permalink: "/doc/enterprise/collector/go/"
+permalink: "/docs/enterprise/collector/go/"
 ---
 
 # Overview

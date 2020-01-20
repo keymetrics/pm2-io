@@ -4,7 +4,7 @@ title: Graceful Shutdown | Best Practices | PM2 Documentation
 menu: starter
 lang: en
 section: runtime
-permalink: "/doc/runtime/best-practices/graceful-shutdown/"
+permalink: "/docs/runtime/best-practices/graceful-shutdown/"
 ---
 
 # Graceful Shutdown

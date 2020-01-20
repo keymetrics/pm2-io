@@ -4,7 +4,7 @@ title: Quick Start | PM2 Documentation
 menu: starter
 lang: en
 section: runtime
-permalink: "/doc/runtime/quick-start/"
+permalink: "/docs/runtime/quick-start/"
 ---
 
 # Quick Start

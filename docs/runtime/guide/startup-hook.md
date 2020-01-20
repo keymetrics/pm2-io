@@ -4,7 +4,7 @@ title: Startup Hook | Guide | PM2 Documentation
 menu: starter
 lang: en
 section: runtime
-permalink: "/doc/runtime/guide/startup-hook/"
+permalink: "/docs/runtime/guide/startup-hook/"
 ---
 
 # Startup Hook

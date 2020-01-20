@@ -4,7 +4,7 @@ title: Modules | Guide | PM2 Plus Documentation
 menu: starter
 lang: en
 section: plus
-permalink: "/doc/plus/guide/modules/"
+permalink: "/docs/plus/guide/modules/"
 ---
 
 # Modules

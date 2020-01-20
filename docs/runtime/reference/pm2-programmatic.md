@@ -4,7 +4,7 @@ title: Programmatic | Reference | PM2 Documentation
 menu: starter
 lang: en
 section: runtime
-permalink: "/doc/runtime/reference/pm2-programmatic/"
+permalink: "/docs/runtime/reference/pm2-programmatic/"
 ---
 
 # PM2 API

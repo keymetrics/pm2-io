@@ -4,7 +4,7 @@ title: Development Tools | Guide | PM2 Documentation
 menu: starter
 lang: en
 section: runtime
-permalink: "/doc/runtime/guide/development-tools/"
+permalink: "/docs/runtime/guide/development-tools/"
 ---
 
 # Development Tools

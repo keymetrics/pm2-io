@@ -4,7 +4,7 @@ title: Heroku | Integration | PM2 Plus Documentation
 menu: starter
 lang: en
 section: plus
-permalink: "/doc/plus/integration/heroku/"
+permalink: "/docs/plus/integration/heroku/"
 ---
 
 # Monitor your Node.js app in Heroku

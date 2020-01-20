@@ -4,7 +4,7 @@ title: Configuration | Guide | PM2 Plus Documentation
 menu: starter
 lang: en
 section: plus
-permalink: "/doc/plus/guide/custom-metrics/"
+permalink: "/docs/plus/guide/custom-metrics/"
 ---
 
 ![pm2io](https://raw.githubusercontent.com/keymetrics/branding/master/logos/pm2ioAPM/io-white.png)

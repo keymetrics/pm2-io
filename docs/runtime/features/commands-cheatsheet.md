@@ -4,7 +4,7 @@ title: Commands Cheatsheet | PM2 Documentation
 description: PM2 Inception
 lang: en
 section: runtime
-permalink: "/doc/runtime/features/commands-cheatsheet/"
+permalink: "/docs/runtime/features/commands-cheatsheet/"
 ---
 
 ## CheatSheet

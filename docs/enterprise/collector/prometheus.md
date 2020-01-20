@@ -4,7 +4,7 @@ title: Prometheus Integration | Guides | PM2 Enterprise Documentation
 menu: starter
 lang: en
 section: enterprise
-permalink: "/doc/enterprise/collector/prometheus/"
+permalink: "/docs/enterprise/collector/prometheus/"
 ---
 
 ## Overview

@@ -4,7 +4,7 @@ title: Standalone Agent | Guides | PM2 Enterprise Documentation
 menu: starter
 lang: en
 section: enterprise
-permalink: "/doc/enterprise/collector/standalone/"
+permalink: "/docs/enterprise/collector/standalone/"
 ---
 
 ## Overview

@@ -4,7 +4,7 @@ title: Heroku | Integration | PM2 Documentation
 menu: starter
 lang: en
 section: runtime
-permalink: "/doc/runtime/integration/heroku/"
+permalink: "/docs/runtime/integration/heroku/"
 ---
 
 # Using PM2 with Heroku

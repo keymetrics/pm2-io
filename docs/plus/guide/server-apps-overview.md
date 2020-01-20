@@ -4,7 +4,7 @@ title: Overviews | Guide | PM2 Plus Documentation
 menu: starter
 lang: en
 section: plus
-permalink: "/doc/plus/guide/server-apps-overview/"
+permalink: "/docs/plus/guide/server-apps-overview/"
 ---
 
 # Presentation

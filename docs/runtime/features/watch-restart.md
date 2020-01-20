@@ -4,7 +4,7 @@ title: Watch & Restart | Features | PM2 Documentation
 description: Watch & Restart application on file change
 lang: en
 section: runtime
-permalink: "/doc/runtime/features/watch-restart/"
+permalink: "/docs/runtime/features/watch-restart/"
 ---
 
 ## Auto restart apps on file change
@@ -22,7 +22,7 @@ If `--watch` is enabled, stopping it won't stop watching:
 
 Restart with `--watch` will toggle the `watch` parameter.
 
-To watch specific paths, please use a [Ecosystem File](/doc/doc/runtime/guide/ecosystem-file/), `watch` can take a string or an array of paths. Default is `true`:
+To watch specific paths, please use a [Ecosystem File](/docs/docs/runtime/guide/ecosystem-file/), `watch` can take a string or an array of paths. Default is `true`:
 
 ```javascript
 module.exports = {

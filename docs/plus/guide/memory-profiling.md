@@ -4,7 +4,7 @@ title: Memory Profiling | Guide | PM2 Plus Documentation
 menu: starter
 lang: en
 section: plus
-permalink: "/doc/plus/guide/memory-profiling/"
+permalink: "/docs/plus/guide/memory-profiling/"
 ---
 
 # Memory profiling

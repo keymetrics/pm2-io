@@ -4,7 +4,7 @@ title: Deployment on Baremetal Servers | On-Premise | PM2 Enterprise Documentati
 menu: starter
 lang: en
 section: enterprise
-permalink: "/doc/enterprise/on-premise/baremetal/"
+permalink: "/docs/enterprise/on-premise/baremetal/"
 ---
 
 # Deployment on Baremetal Servers

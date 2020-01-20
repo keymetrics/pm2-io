@@ -4,7 +4,7 @@ title: Deployment on Kubernetes with Helm | On-Premise | PM2 Enterprise Document
 menu: starter
 lang: en
 section: enterprise
-permalink: "/doc/enterprise/helm/"
+permalink: "/docs/enterprise/helm/"
 ---
 
 ## Deployment on Kubernetes with Helm

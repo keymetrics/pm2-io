@@ -4,7 +4,7 @@ title: Metrics Glossary | Best Practices | PM2 Plus Documentation
 menu: starter
 lang: en
 section: plus
-permalink: "/doc/plus/best-practices/metrics-glossary/"
+permalink: "/docs/plus/best-practices/metrics-glossary/"
 ---
 
 # Metrics Glossary

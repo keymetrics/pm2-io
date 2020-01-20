@@ -4,7 +4,7 @@ title: Deployment on Google Cloud Plateform | On-Premise | PM2 Enterprise Docume
 menu: starter
 lang: en
 section: enterprise
-permalink: "/doc/enterprise/gcp/"
+permalink: "/docs/enterprise/gcp/"
 ---
 
 ## Deployment on Google Cloud Plateform

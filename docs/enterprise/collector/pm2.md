@@ -4,7 +4,7 @@ title: PM2 Agent | Guides | PM2 Enterprise Documentation
 menu: starter
 lang: en
 section: enterprise
-permalink: "/doc/enterprise/collector/pm2/"
+permalink: "/docs/enterprise/collector/pm2/"
 ---
 
 ## Overview

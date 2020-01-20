@@ -4,7 +4,7 @@ title: Elastic Beanstalk | Integration | PM2 Documentation
 menu: starter
 lang: en
 section: runtime
-permalink: "/doc/runtime/integration/elastic-beanstalk/"
+permalink: "/docs/runtime/integration/elastic-beanstalk/"
 ---
 
 # Using PM2 with AWS Elastic Beanstalk

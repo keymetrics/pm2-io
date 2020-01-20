@@ -4,7 +4,7 @@ title: Memory Threshold Auto Reload | Features | PM2 Documentation
 description: Fast way to temporarily fix memory leaks
 lang: en
 section: runtime
-permalink: "/doc/runtime/features/memory-limit/"
+permalink: "/docs/runtime/features/memory-limit/"
 ---
 
 ## Max Memory Threshold Auto Reload

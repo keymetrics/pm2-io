@@ -4,7 +4,7 @@ title: Cloud Providers | Integration | PM2 Plus Documentation
 menu: starter
 lang: en
 section: plus
-permalink: "/doc/plus/integration/cloud-providers/"
+permalink: "/docs/plus/integration/cloud-providers/"
 ---
 
 # Monitor your Node.js app in a cloud provider

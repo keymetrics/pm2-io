@@ -4,7 +4,7 @@ title: Overview | PM2 Plus Documentation
 menu: starter
 lang: en
 section: plus
-permalink: "/doc/plus/overview/"
+permalink: "/docs/plus/overview/"
 ---
 <br/>
 <h3>Welcome to the <b>PM2 Plus</b> documentation</h3>

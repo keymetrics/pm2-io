@@ -4,7 +4,7 @@ title: Elastic Beanstalk | Integration | PM2 Plus Documentation
 menu: starter
 lang: en
 section: plus
-permalink: "/doc/plus/integration/elastic-beanstalk/"
+permalink: "/docs/plus/integration/elastic-beanstalk/"
 ---
 
 # Monitor your Node.js app in AWS Elastic Beanstalk

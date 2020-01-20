@@ -4,7 +4,7 @@ title: Multiple PM2 Runtime | Features | PM2 Documentation
 description: PM2 Inception
 lang: en
 section: runtime
-permalink: "/doc/runtime/features/multiple-pm2/"
+permalink: "/docs/runtime/features/multiple-pm2/"
 ---
 
 ## Running Multiple PM2

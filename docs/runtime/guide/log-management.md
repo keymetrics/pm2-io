@@ -4,7 +4,7 @@ title: Log Management | Guide | PM2 Documentation
 menu: starter
 lang: en
 section: runtime
-permalink: "/doc/runtime/guide/log-management/"
+permalink: "/docs/runtime/guide/log-management/"
 ---
 
 # Log management

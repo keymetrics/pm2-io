@@ -4,7 +4,7 @@ title: Installation | PM2 Plus Documentation
 menu: starter
 lang: en
 section: plus
-permalink: "/doc/plus/quick-start/"
+permalink: "/docs/plus/quick-start/"
 ---
 
 # Installation

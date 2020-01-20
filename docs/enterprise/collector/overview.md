@@ -4,7 +4,7 @@ title: Overview | PM2 Enterprise Documentation
 menu: starter
 lang: en
 section: enterprise
-permalink: "/doc/enterprise/collector/"
+permalink: "/docs/enterprise/collector/"
 ---
 
 ## Overview

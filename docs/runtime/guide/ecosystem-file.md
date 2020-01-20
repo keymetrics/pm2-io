@@ -4,7 +4,7 @@ title: Ecosystem File | Guide | PM2 Documentation
 menu: starter
 lang: en
 section: runtime
-permalink: "/doc/runtime/guide/ecosystem-file/"
+permalink: "/docs/runtime/guide/ecosystem-file/"
 ---
 
 # Ecosystem File
@@ -96,7 +96,7 @@ pm2 start ecosystem.config.js --env production # uses variables from `env_produc
 
 ### Options Reference
 
-To know more about all the options available checkout [the complete option reference](https://pm2.io/doc/doc/runtime/reference/ecosystem-file/)
+To know more about all the options available checkout [the complete option reference](https://pm2.io/docs/docs/runtime/reference/ecosystem-file/)
 
 ## Next Steps
 

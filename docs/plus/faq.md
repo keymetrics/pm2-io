@@ -4,7 +4,7 @@ title: FAQ | PM2 Plus Documentation
 menu: starter
 lang: en
 section: plus
-permalink: "/doc/plus/faq/"
+permalink: "/docs/plus/faq/"
 ---
 
 # FAQ & Troubleshooting
@@ -62,7 +62,7 @@ You also may need to whitelist IPs, please allow those listed here: [https://ips
 
 <details>
 <summary markdown="span">Have you upgraded to the lastest PM2 available?</summary>
-[Updating PM2](https://pm2.io/doc/doc/runtime/guide/installation/#update)
+[Updating PM2](https://pm2.io/docs/docs/runtime/guide/installation/#update)
 </details>
 
 ## Dashboard Issues

@@ -4,7 +4,7 @@ title: Issue Dashboard | Guide | PM2 Plus Documentation
 menu: starter
 lang: en
 section: plus
-permalink: "/doc/plus/guide/issue-dashboard/"
+permalink: "/docs/plus/guide/issue-dashboard/"
 ---
 
 # Issue dashboard
