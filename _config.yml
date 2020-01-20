@@ -1,0 +1,26 @@
+# Site settings
+title: PM2
+email: contact@pm2.io
+description: > # this means to ignore newlines until "baseurl:"
+  Advanced process manager for production Node.js applications. Load balancer, logs facility,
+  startup script, micro service management, at a glance.
+baseurl: ""
+url: "https://pm2-new.netlify.com"
+repo_url: "https://github.com/pm2-hive/pm2-hive.github.io"
+
+sass:
+  sass_dir: _sass
+
+markdown: kramdown
+
+exclude: ['node_modules', 'scripts', 'Gemfile', 'Gemfile.lock', 'README.md', 'vender']
+
+plugins:
+  - jekyll-paginate
+
+redcarpet:
+  extensions: ['tables', 'no_intra_emphasis', 'autolink']
+
+permalink: /blog/:year/:month/:day/:title
+paginate: 3
+register_url: https://id.keymetrics.io/api/oauth/register

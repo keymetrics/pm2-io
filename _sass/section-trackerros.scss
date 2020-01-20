@@ -1,0 +1,42 @@
+.section-trackerrors {
+  .section-wrapper {
+    margin-top: 150px;
+    margin-bottom: 150px;
+    @media #{$mobile} {
+      margin-top: 90px;
+      margin-bottom: 171px;
+    }
+
+    .card {
+      max-width: 1200px;
+      margin: auto;
+      margin-top: 105px;
+      grid-template-columns: 2fr 1fr;
+
+      .card-left {
+        position: relative;
+
+        &::before {
+          position: absolute;
+          opacity: 0.4;
+          content: "";
+          top: 0;
+          left: 0;
+          width: 100%;
+          height: 100%;
+          background: url(./card-left-vector.png) no-repeat;
+          background-size: contain;
+        }
+      }
+
+      @media #{$mobile} {
+        grid-template-columns: 1fr;
+        grid-template-rows: auto;
+        grid-row-gap: 20px;
+        text-align: center;
+      }
+
+    }
+  }
+
+}

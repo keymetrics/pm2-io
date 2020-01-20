@@ -1,0 +1,25 @@
+
+.section-intro {
+  .section-wrapper {
+    margin: 80px auto;
+  }
+
+  .card-right img {
+    width: 100%;
+    box-shadow: 0px 10px 35px #1d1d1d;
+    @media #{$mobile} {
+      margin-top: 60px;
+    }
+  }
+
+  @media #{$mobile} {
+    h1 {
+      margin-top: 54px;
+    }
+    p {
+      margin-top: 20px;
+      margin-bottom: 60px;
+    }
+  }
+}
+

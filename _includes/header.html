@@ -1,0 +1,58 @@
+<header id="menu">
+  <div class="header-wrapper">
+    <nav class="main-nav">
+      <a href="{{ site.url }}" title="Go to home page" class="logo-link">
+        <img width="206" alt="PM2 logo" src="{{ site.url }}/assets/pm2-logo-1.png" />
+      </a>
+      <div class="menu">
+        <a
+          title="Open menu"
+          href="#menu"
+          class="button accent-border border-corners inner-shadows menu-button"
+        >
+          <div class="menu-icon"></div>
+        </a>
+        <a class="menu-overlay" href="#" title="Close the menu"></a>
+        <div class="menu-content">
+          <div class="doc-links">
+            <a
+              href="{{ site.url }}/pricing"
+              title="Go to Pricing"
+              class="{% if page.url == '/pricing' %}current{% endif %}"
+              >
+              Pricing
+            </a>
+            <a
+              href="{{ site.url }}/blog"
+              title="Go to Blog"
+              class="{% if page.url == '/blog' %}current{% endif %}"
+            >
+              Blog
+            </a>
+            <a
+              href="{{ site.url }}/contact/"
+              title="Go to Contact"
+              class="{% if page.url == '/contact' %}current{% endif %}"
+            >
+              Contact
+            </a>
+            <a
+              href="{{ site.url }}/docs/usage/quick-start/"
+              title="Go to Documentation"
+              class="{% if page.url == '/docs/usage/quick-start/' %}current{% endif %}"
+            >
+              Docs
+            </a>
+          </div>
+          <a
+            href="{{ site.register_url }}"
+            title="Get started"
+            class="button accent-border border-corners inner-shadows"
+          >
+            Login
+          </a>
+        </div>
+      </div>
+    </nav>
+  </div>
+</header>
