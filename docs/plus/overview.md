@@ -33,16 +33,25 @@ pm2 plus
 
 ### Server overview
 
-![server overview](https://cdn.jsdelivr.net/gh/keymetrics/branding/screenshots/plus/overview/server_overview.png)
+![server overview](/img/server-overview.png)
 
 PM2 Plus allows you to have an extended view of all your apps and databases in one single place, at real-time or through history. **Stop ssh in all your servers one by one**, instead, save time by having a condensed infrastructure plus view.
 
 [Checkout the specific views]({{ site.baseurl }}{% link docs/plus/guide/server-apps-overview.md %})
 {: .btn-stylized}
 
+### Application Overview
+
+![server overview](/img/app-overview.png)
+
+Get an aggregated view over all your applications.
+
+[Checkout the specific views]({{ site.baseurl }}{% link docs/plus/guide/server-apps-overview.md %})
+{: .btn-stylized}
+
 ### Metrics Histogram
 
-![custom metrics](https://raw.githubusercontent.com/keymetrics/branding/master/screenshots/plus/histograms/histograms.png)
+![custom metrics](/img/monitoring.png)
 
 Expose the important variables from your Node.js applications source code and display them as performance metrics on the PM2 Plus dashboard. **Monitor values that matter.**
 
@@ -51,7 +60,7 @@ Expose the important variables from your Node.js applications source code and di
 
 ### Notifications
 
-![notifications]({{ site.baseurl }}{% link img/plus/notifications.png %})
+![notifications]({{ site.baseurl }}{% link img/notification.png %})
 
 Know when an error occurred in your application or when your production application is down.
 
@@ -62,7 +71,7 @@ Even though PM2 makes sure that your application have no downtime, be notified i
 
 ### Issues Dashboard
 
-![issue dashboard](https://raw.githubusercontent.com/keymetrics/branding/master/screenshots/plus/issues/issues.png)
+![issue dashboard](/img/exceptions.png)
 
 PM2 Plus reports the list of all errors in the "Issue Dashboard" occurred in your Node.js and gets you notified.
 
@@ -73,7 +82,7 @@ Stop spending time finding bugs or trying to replay them, we provide you an "Iss
 
 ### Custom Actions
 
-![remote action](https://raw.githubusercontent.com/keymetrics/branding/master/screenshots/plus/actionCenter/actionCenter.png)
+![remote action](/img/custom-actions.png)
 
 PM2 Plus makes possible to enhance custom functions in the source code of your application.
 

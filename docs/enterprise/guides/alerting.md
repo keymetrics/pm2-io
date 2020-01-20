@@ -10,14 +10,16 @@ permalink: "/docs/enterprise/guides/alerting/"
 
 # Overview
 
+![alerting](/img/alert.png)
+
 The alerting engine of PM2 Enterprise allows you to set alerts on metrics and receive alerts, like it's possible with other monitoring solution.
-However we do a somethings more, which intregrating with our APMs: 
+However we do a somethings more, which intregrating with our APMs:
 
 - You can trigger a profiling of any application (either the cpu or memory) that allows you to continuously profile your application, across release to increase performance or detect regression.
 - You can run a function in your application (with the custom actions)
 - You can ask PM2 to restart your application (with you use the pm2 agent)
 
-You currently support 3 ways to be alerted: 
+You currently support 3 ways to be alerted:
 - Slack
 - Email
 - Webhook
@@ -27,7 +29,7 @@ You currently support 3 ways to be alerted:
 #### Be alerted when a metrics go above a threshold
 
 The main use case of the feature is of course to alert you when metrics aren't normal.
-A basic alert should looks like that: 
+A basic alert should looks like that:
 
 - Create an alert
 - Select the metric that you want to get alerted on
@@ -94,7 +96,7 @@ Note: You can add actions as much as you want, they will all be run. Note that t
 ## Common Questions
 
 * If I choose a custom action, where will it be run?
-  
+
   The alerting engine will send the custom action do all processes that have gone above the treshold automatically, you can't configure which process will receive it or not.
 
 * I filter by the application name and i received multiples emails at the same time for the same name, how is that possible?
