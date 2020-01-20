@@ -63,7 +63,7 @@ className: pricing
               </div>
             </div>
           </div>
-        </div> 
+        </div>
         <div class="three-columns">
           <div class="price-card">
             <div class="card-header">
@@ -351,20 +351,20 @@ className: pricing
         <div class="question">
           <h4>Can I pay yearly</h4>
           <p>
-            Yes, it also gives you a 20% discount on your subscription. Note that this only refer to PM2 Plus subscription. 
+            Yes, it also gives you a 20% discount on your subscription. Note that this only refer to PM2 Plus subscription.
           </p>
         </div>
-        <div class="question"> 
+        <div class="question">
           <h4>If the pricing changes, will I have to pay  the difference?</h4>
           <p>
-            No. While we reserve the right to change the pricing, you will always be charged the same price agreed upfront. 
+            No. While we reserve the right to change the pricing, you will always be charged the same price agreed upfront.
           </p>
         </div>
-        <div class="question">      
+        <div class="question">
           <h4>Is there any trial?</h4>
           <p>It's possible to do a trial, you need to contact our sales team via this form.</p>
         </div>
-        <div class="question"> 
+        <div class="question">
           <h4>What happens if i cross the limit of my plan?</h4>
           <p>If you exceed the number of processes, our system will automatically ignore the exceeding processes (ramdonly choosen). </p>
         </div>
@@ -376,3 +376,19 @@ className: pricing
 
 
 
+<script>
+  window.onscroll = function() {myFunction()};
+
+var header = document.getElementById("list-header");
+var sticky = header.offsetTop;
+
+function myFunction() {
+  if (window.pageYOffset > 500 && window.pageYOffset < 1400) {
+    header.classList.add("sticky");
+    header.style.display = "inline-flex";
+  } else {
+    header.classList.remove("sticky");
+    header.style.display = "none";
+  }
+}
+</script>

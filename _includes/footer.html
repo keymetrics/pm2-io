@@ -95,7 +95,7 @@
     $(".moreBox").slice(0, 3).show();
       if ($(".blogBox:hidden").length != 0) {
         $("#loadMore").show();
-      }   
+      }
       $("#loadMore").on('click', function (e) {
         e.preventDefault();
         $(".moreBox:hidden").slice(0, 3).slideDown();
@@ -104,21 +104,4 @@
         }
       });
     });
-</script>
-
-<script>
-  window.onscroll = function() {myFunction()};
-
-  var header = document.getElementById("list-header");
-  var sticky = header.offsetTop;
-
-  function myFunction() {
-    if (window.pageYOffset > 500 && window.pageYOffset < 1400) {
-      header.classList.add("sticky");
-      header.style.display = "inline-flex";
-    } else {
-      header.classList.remove("sticky");
-      header.style.display = "none";
-    }
-  }
 </script>
