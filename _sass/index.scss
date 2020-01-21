@@ -89,7 +89,7 @@ section {
 .section-background {
   position: absolute;
   pointer-events: none;
-  top: -650px;
+  top: -800px;
   bottom: -500px;
   left: 0;
   right: 0;
@@ -188,7 +188,7 @@ section {
   .hexagon-1 {
     width: 1600px;
     height: 600px;
-    top: -20px;
+    top: 130px;
     right: -5%;
   }
   .hexagon-2 {
@@ -196,13 +196,13 @@ section {
     opacity: 0.07;
     width: 1600px;
     height: 820px;
-    top: -250px;
+    top: -100px;
     left: 32%;
   }
   .hexagon-3 {
     width: 1600px;
     height: 600px;
-    top: -50px;
+    top: 100px;
     right: 140px;
   }
   .hexagon-4 {
@@ -210,7 +210,7 @@ section {
     opacity: 0.07;
     width: 1600px;
     height: 740px;
-    top: -116px;
+    top: 34px;
     left: 53%;
   }
   .hexagon-5 {
@@ -226,7 +226,7 @@ section {
     opacity: 0.07;
     width: 1600px;
     height: 620px;
-    top: 90px;
+    top: 240px;
     right: 37%;
   }
   .hexagon-7 {
@@ -235,26 +235,26 @@ section {
     opacity: 0.03;
     width: 1800px;
     height: 870px;
-    top: -260px;
+    top: -110px;
     left: -14%;
   }
   .hexagon-8 {
     opacity: 0.07;
     width: 1600px;
     height: 620px;
-    top: 0;
+    top: 150px;
     right: 35%;
   }
   .hexagon-9 {
     width: 1600px;
     height: 370px;
-    top: 290px;
+    top: 440px;
     right: -80%;
   }
   .hexagon-10 {
     width: 1600px;
     height: 410px;
-    top: 75px;
+    top: 225px;
     right: 10%;
   }
   .hexagon-11 {
@@ -262,7 +262,7 @@ section {
     opacity: 0.05;
     width: 1600px;
     height: 730px;
-    top: -439px;
+    top: -249px;
     left: 83%;
   }
 }
@@ -692,8 +692,8 @@ table {
       font-size: 37px;
       font-weight: normal;
     }
-    margin-top: 50px;
-    margin-bottom: 350px;
+    margin-top: -100px;
+    margin-bottom: 500px;
     @media #{$mobile} {
       margin-top: 0px;
     }

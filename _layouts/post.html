@@ -8,14 +8,14 @@
     <main class="post">
       <section class="section-hero">
         <div class="section-background">
-
         </div>
         <div class="section-wrapper">
           <h1>{{ page.title }}</h1>
         </div>
       </section>
       <section>
-
+        <div class="section-background">
+        </div>
         <div class="section-wrapper">
           <div class="content">
             <div class="container">
@@ -27,7 +27,6 @@
         </div>
       </section>
       <section class="section-register">
-
         {% assign recomended = "" | split: ',' %}
 
         {% for post in site.posts %}
