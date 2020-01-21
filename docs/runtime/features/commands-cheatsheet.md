@@ -5,6 +5,7 @@ description: PM2 Inception
 lang: en
 section: runtime
 permalink: "/docs/runtime/features/commands-cheatsheet/"
+redirect_to: "https://pm2.keymetrics.io/docs/usage/quick-start/"
 ---
 
 ## CheatSheet

@@ -5,6 +5,7 @@ menu: starter
 lang: en
 section: runtime
 permalink: "/docs/runtime/quick-start/"
+redirect_to: "https://pm2.keymetrics.io/docs/usage/quick-start/"
 ---
 
 # Quick Start

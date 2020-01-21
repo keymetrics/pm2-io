@@ -2,8 +2,7 @@
 title: PM2
 email: contact@pm2.io
 description: > # this means to ignore newlines until "baseurl:"
-  Advanced process manager for production Node.js applications. Load balancer, logs facility,
-  startup script, micro service management, at a glance.
+  Build Battle-Hardened Node.js Applications.
 baseurl: ""
 url: "https://pm2.io"
 
@@ -18,6 +17,7 @@ exclude: ['node_modules', 'scripts', 'Gemfile', 'Gemfile.lock', 'README.md', 've
 
 plugins:
   - jekyll-paginate
+  - jekyll-redirect-from
 
 redcarpet:
   extensions: ['tables', 'no_intra_emphasis', 'autolink']
