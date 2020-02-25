@@ -72,13 +72,13 @@ plus:
     url: "/docs/plus/integration/"
     subnav:
       - title: AWS Elastic Beanstalk
-        url: "/docs/plus/integration/elastic-beanstalk/"
+        url: https://pm2.keymetrics.io/docs/usage/use-pm2-with-cloud-providers/
       - title: Docker
-        url: "/docs/plus/integration/docsker/"
+        url: https://pm2.keymetrics.io/docs/usage/docker-pm2-nodejs/
       - title: Heroku
-        url: "/docs/plus/integration/heroku/"
+        url: https://pm2.keymetrics.io/docs/integrations/heroku/
       - title: With a Cloud Provider
-        url: "/docs/plus/integration/cloud-providers/"
+        url: https://pm2.keymetrics.io/docs/usage/use-pm2-with-cloud-providers/
       - title: Node.js with PM2
         url: "/docs/enterprise/collector/pm2"
       - title: Node.js without PM2
