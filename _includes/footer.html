@@ -8,7 +8,7 @@
     <nav class="main-nav">
       <div>
         <a href="{{ site.url }}" title="Go to home page" class="logo-link">
-          <img alt="PM2 logo" src="{{ site.url }}/assets/logo.png" />
+          <img alt="PM2.io - Advanced Node.js Process Manager and Monitoring Platform" src="{{ site.url }}/assets/logo.png" loading="lazy" />
         </a>
         <p>© 2025 Keymetrics Inc</p>
       </div>
@@ -73,14 +73,22 @@
   </div>
 </footer>
 
-<!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-51734350-13"></script>
+<!-- Google tag (gtag.js) - Google Analytics 4 -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXXXX"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
-
-  gtag('config', 'UA-51734350-13');
+  gtag('config', 'G-4VK2ZBRSH6', {
+    send_page_view: true,
+    enhanced_measurement: {
+      scrolls: true,
+      outbound_clicks: true,
+      site_search: true,
+      video_engagement: true,
+      file_downloads: true
+    }
+  });
 </script>
 
 <script type="text/javascript" src="{{ site.url }}/assets/jquery.min.js"></script>

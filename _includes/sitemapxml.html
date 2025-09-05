@@ -1,3 +1,6 @@
 <url>
   <loc>{{ site.url }}{{ include.url }}</loc>
+  <lastmod>{{ site.time | date_to_xmlschema }}</lastmod>
+  <changefreq>{% if include.url == '/' %}weekly{% elsif include.url contains '/blog/' %}monthly{% else %}monthly{% endif %}</changefreq>
+  <priority>{% if include.url == '/' %}1.0{% elsif include.url contains '/pricing' or include.url contains '/contact' %}0.9{% elsif include.url contains '/blog/' %}0.6{% else %}0.8{% endif %}</priority>
 </url>

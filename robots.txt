@@ -2,4 +2,25 @@
 layout: none
 ---
 
+User-agent: *
+Allow: /
+
+# Important pages
+Allow: /pricing
+Allow: /contact  
+Allow: /blog
+Allow: /docs/
+
+# Block admin/sensitive areas
+Disallow: /admin/
+Disallow: /private/
+Disallow: /*.tmp
+Disallow: /*?*utm_*
+
+# Crawl delay
+Crawl-delay: 1
+
+# Sitemap location
 Sitemap: {{ site.url }}/sitemap.xml
+
+# Updated {{ site.time | date: "%Y-%m-%d" }}

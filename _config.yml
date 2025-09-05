@@ -2,7 +2,7 @@
 title: PM2
 email: contact@pm2.io
 description: > # this means to ignore newlines until "baseurl:"
-  Build Battle-Hardened Node.js Applications.
+  Build Battle-Hardened Node.js Applications. Advanced process manager with built-in load balancer, monitoring dashboard, and enterprise solutions. Over 100M downloads, powering modern Node.js applications globally.
 baseurl: ""
 url: "https://pm2.io"
 

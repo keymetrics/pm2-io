@@ -12,19 +12,38 @@
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <meta name="copyright" content="Keymetrics Inc." />
 <meta name="description" content="{{ description | strip | escape }}">
+<meta name="keywords" content="Node.js, PM2, process manager, monitoring, deployment, DevOps, application monitoring, Node.js hosting, server management">
+<meta name="robots" content="index, follow">
+<meta name="author" content="Keymetrics Inc.">
+<meta name="theme-color" content="#3498db">
+<meta name="msapplication-TileColor" content="#3498db">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="default">
+<meta name="format-detection" content="telephone=no">
+<meta name="referrer" content="origin-when-cross-origin">
+<meta http-equiv="last-modified" content="{{ site.time | date: '%Y-%m-%d' }}">
+<meta name="revisit-after" content="7 days">
 
 <meta property="og:url" content="{{ url | strip | escape }}" />
 <meta property="og:type" content="website" />
 <meta property="og:title" content="{{ title | strip | escape }}" />
 <meta property="og:description" content="{{ description | strip | escape }}" />
-<meta property="og:image" content="https://raw.githubusercontent.com/unitech/pm2/master/pres/pm2.20d3ef.png" />
+<meta property="og:image" content="{{ site.url }}/assets/og-image.png" />
+<meta property="og:image:width" content="1200" />
+<meta property="og:image:height" content="630" />
+<meta property="og:image:type" content="image/png" />
+<meta property="og:locale" content="en_US" />
+<meta property="og:site_name" content="PM2.io" />
+<meta property="og:updated_time" content="{{ site.time | date_to_xmlschema }}" />
 <meta name="google-site-verification" content="ELR1mLPjKnUWvC62UIAp4fpVUvO4ToECWOK_jb922bI" />
 <meta name="twitter:card" content="summary_large_image" />
 <meta name="twitter:site" content="@keymetrics_io" />
+<meta name="twitter:creator" content="@keymetrics_io" />
 <meta name="twitter:title" content="{{ title | strip | escape }}" />
 <meta name="twitter:description" content="{{ description | strip | escape }}" />
-<meta name="twitter:image:src" content="https://raw.githubusercontent.com/unitech/pm2/master/pres/pm2.20d3ef.png" />
+<meta name="twitter:image" content="{{ site.url }}/assets/og-image.png" />
 <meta name="twitter:url" content="{{ url | strip | escape }}" />
+<meta name="twitter:domain" content="pm2.io" />
 <link rel="canonical" href="{{ url | strip | escape }}">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Exo:300,500,800|Roboto&display=swap">
 <link rel="stylesheet" href="{{ site.url }}/assets/main.css" />
@@ -32,5 +51,83 @@
 <link rel="icon" type="image/png" href="{{ site.url }}/favicon-16x16.png" sizes="16x16">
 <link rel="icon" type="image/png" href="{{ site.url }}/favicon-32x32.png" sizes="32x32">
 <link rel="icon" type="image/x-icon" href="{{ site.url }}/favicon.ico" />
+
+<!-- Structured Data -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "name": "PM2.io",
+  "alternateName": "Keymetrics",
+  "url": "{{ site.url }}",
+  "logo": "{{ site.url }}/assets/logo.png",
+  "description": "{{ site.description | strip | escape }}",
+  "foundingDate": "2013",
+  "sameAs": [
+    "https://github.com/Unitech/pm2",
+    "https://twitter.com/keymetrics_io",
+    "https://www.linkedin.com/company/keymetrics"
+  ],
+  "contactPoint": {
+    "@type": "ContactPoint",
+    "email": "{{ site.email }}",
+    "contactType": "Customer Service"
+  },
+  "offers": {
+    "@type": "Offer",
+    "name": "PM2 Monitoring Solutions",
+    "description": "Advanced Node.js process management and monitoring solutions",
+    "category": "Software Development Tools"
+  }
+}
+</script>
+
+{% if page.url == "/" %}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebSite",
+  "name": "PM2.io",
+  "url": "{{ site.url }}",
+  "description": "{{ site.description | strip | escape }}",
+  "inLanguage": "en-US",
+  "potentialAction": {
+    "@type": "SearchAction",
+    "target": "{{ site.url }}/search?q={search_term_string}",
+    "query-input": "required name=search_term_string"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "Keymetrics Inc.",
+    "url": "{{ site.url }}"
+  }
+}
+</script>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "SoftwareApplication",
+  "name": "PM2",
+  "applicationCategory": "DeveloperApplication",
+  "operatingSystem": "Node.js",
+  "description": "Advanced Node.js process manager with built-in load balancer",
+  "url": "https://pm2.keymetrics.io/",
+  "downloadUrl": "https://www.npmjs.com/package/pm2",
+  "softwareVersion": "latest",
+  "releaseNotes": "Over 100 million downloads",
+  "offers": {
+    "@type": "Offer",
+    "price": "0",
+    "priceCurrency": "USD"
+  },
+  "author": {
+    "@type": "Organization",
+    "name": "Keymetrics Inc.",
+    "url": "{{ site.url }}"
+  }
+}
+</script>
+{% endif %}
 
 <title>{{ title | strip | escape }}</title>
