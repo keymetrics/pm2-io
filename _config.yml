@@ -13,15 +13,24 @@ sass:
 
 markdown: kramdown
 
-exclude: ['node_modules', 'scripts', 'Gemfile', 'Gemfile.lock', 'README.md', 'vendor']
+exclude:
+  ["node_modules", "scripts", "Gemfile", "Gemfile.lock", "README.md", "vendor"]
 
 plugins:
   - jekyll-paginate
   - jekyll-redirect-from
 
 redcarpet:
-  extensions: ['tables', 'no_intra_emphasis', 'autolink']
+  extensions: ["tables", "no_intra_emphasis", "autolink"]
 
 permalink: /blog/:year/:month/:day/:title
 paginate: 3
 register_url: https://id.keymetrics.io/api/oauth/register
+login_url: https://id.keymetrics.io/api/oauth/login
+
+# Analytics
+mixpanel:
+  enabled: true
+  token: 0abf6a940a43403982c64ed92aa398dd
+  api_host: https://api-eu.mixpanel.com
+  dev_mode: false # Set to true to enable debug logging and ignore DNT locally

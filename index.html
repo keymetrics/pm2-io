@@ -20,10 +20,12 @@ description: PM2.io provides advanced Node.js process management, monitoring, an
           </p>
           <div class="code-and-button">
             <a
-              href="https://id.keymetrics.io/api/oauth/register"
+              href="{{ site.register_url }}"
               title="Register Now"
               target="_blank"
               class="button big accent-border border-corners inner-shadows"
+              data-track-cross-site
+              data-tracking-event="hero_register_clicked"
             >
               Register Now
             </a>
@@ -111,7 +113,7 @@ description: PM2.io provides advanced Node.js process management, monitoring, an
           <code>
             pm2 monitor
           </code>
-          <a href="https://id.keymetrics.io/api/oauth/register" title="Register" class="button big dim-border dim-inner-shadows">
+          <a href="{{ site.register_url }}" title="Register" class="button big dim-border dim-inner-shadows" data-track-cross-site data-tracking-event="monitoring_register_clicked">
             Register Today
           </a>
 
@@ -183,9 +185,11 @@ description: PM2.io provides advanced Node.js process management, monitoring, an
     <p>Setup takes 2 minutes with no configuration change</p>
     <div class="code-and-button">
       <a
-        href="https://id.keymetrics.io/api/oauth/register"
+        href="{{ site.register_url }}"
         title="Register Now"
         class="button big accent-border border-corners inner-shadows"
+        data-track-cross-site
+        data-tracking-event="bottom_cta_register_clicked"
       >
         Start Today
       </a>
