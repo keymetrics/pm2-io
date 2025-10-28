@@ -1,10 +1,16 @@
+const debugLog = function() {
+  const config = window.MIXPANEL_CONFIG || {};
+  if (config.debug) {
+    console.log.apply(console, arguments);
+  }
+};
+
 const form = document.querySelector('form')
 const pattern = /^(([^<>()[\]\\.,;:\s@"]+(\.[^<>()[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
 
 const successMessage = document.querySelector('.success-message')
 const errorMessage = document.querySelector('.error-message')
 
-console.log('wtf')
 form.addEventListener('submit', (_e) => {
   _e.preventDefault()
 
@@ -22,6 +28,8 @@ form.addEventListener('submit', (_e) => {
     errorMessage.classList.remove('active')
     form.reset()
   }).catch(err => {
-    console.error(err)
+    debugLog('[Contact Form] Error submitting form:', err)
+    errorMessage.classList.add('active')
+    successMessage.classList.remove('active')
   })
 })
