@@ -82,6 +82,14 @@
   });
 
   function checkConsentAndInit() {
+    if (!window.GEO_DETECTION || !window.GEO_DETECTION.detected) {
+      debugLog("[Mixpanel] Waiting for geo-detection to complete...");
+      window.addEventListener("geo-detection-complete", checkConsentAndInit, {
+        once: true,
+      });
+      return;
+    }
+
     if (window.ANALYTICS_CONSENT_GIVEN === true) {
       debugLog(
         "[Mixpanel] Pre-existing consent found - initializing immediately"
@@ -139,18 +147,6 @@
     }
   }
 
-  window.trackEvent = function (eventName, properties) {
-    if (window.mixpanel && typeof window.mixpanel.track === "function") {
-      mixpanel.track(eventName, properties);
-    } else {
-      debugLog("[Mixpanel] ⚠️  trackEvent called before Mixpanel initialized");
-    }
-  };
-
-  window.getDistinctId = function () {
-    return mixpanel.get_distinct_id();
-  };
-
   function setupCrossSiteTracking() {
     const distinctId = mixpanel.get_distinct_id();
 
@@ -189,8 +185,8 @@
     );
   }
 
-  window.mp = mixpanel;
-  debugLog(
-    "[Mixpanel] 💡 Tip: Access mixpanel via window.mp or use trackEvent() helper"
-  );
+  if (config.debug) {
+    window.mp = mixpanel;
+    debugLog("[Mixpanel] 💡 Debug mode: Access mixpanel via window.mp");
+  }
 })();
