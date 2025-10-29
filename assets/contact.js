@@ -27,6 +27,11 @@ form.addEventListener('submit', (_e) => {
     successMessage.classList.add('active')
     errorMessage.classList.remove('active')
     form.reset()
+
+    if (window.mixpanel && typeof window.mixpanel.track === 'function') {
+      window.mixpanel.track('demo_requested');
+      debugLog('[Contact Form] Mixpanel event tracked: demo_requested');
+    }
   }).catch(err => {
     debugLog('[Contact Form] Error submitting form:', err)
     errorMessage.classList.add('active')
