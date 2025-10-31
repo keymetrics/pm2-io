@@ -34,3 +34,4 @@ mixpanel:
   token: 0abf6a940a43403982c64ed92aa398dd
   api_host: https://api-eu.mixpanel.com
   dev_mode: false # Set to true to enable debug logging and ignore DNT locally
+  geo_targeting: true # Set to true enable the geo-based cookie-consent banner display
