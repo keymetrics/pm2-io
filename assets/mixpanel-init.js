@@ -29,7 +29,7 @@
       debug: config.debug || false,
       ignore_dnt: shouldIgnoreDNT,
       track_pageview: false,
-      persistence: "localStorage",
+      persistence: "cookie",
       loaded: function (mp) {
         const consentType = isEUUser
           ? "with user consent"
