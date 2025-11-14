@@ -26,40 +26,13 @@
     const shouldIgnoreDNT = !isEUUser || config.ignore_dnt;
 
     const mixpanelConfig = {
+      token: config.token.substring(0, 8) + "...",
       debug: config.debug || false,
-      ignore_dnt: shouldIgnoreDNT,
+      api_host: config.api_host || "default",
+      ignore_dnt: true,
       track_pageview: false,
-      persistence: "cookie",
-      loaded: function (mp) {
-        const consentType = isEUUser
-          ? "with user consent"
-          : "automatically (non-EU)";
-        debugLog("[Mixpanel] ✓ Initialized successfully " + consentType);
-        debugLog("[Mixpanel] Configuration:", {
-          token: config.token.substring(0, 8) + "...",
-          api_host: config.api_host || "default",
-          debug: config.debug,
-          ignore_dnt: shouldIgnoreDNT,
-          environment: config.env,
-          region: window.GEO_DETECTION
-            ? window.GEO_DETECTION.country
-            : "unknown",
-        });
-
-        const originalTrack = mixpanel.track.bind(mixpanel);
-        mixpanel.track = function (eventName, properties, callback) {
-          debugLog(
-            "[Mixpanel] 📊 Tracking event:",
-            eventName,
-            properties || {}
-          );
-          return originalTrack(eventName, properties, callback);
-        };
-
-        trackCurrentPage();
-        setupCrossSiteTracking();
-      },
-    };
+      persistence: "cookie"
+    }
 
     if (config.api_host) {
       mixpanelConfig.api_host = config.api_host;
