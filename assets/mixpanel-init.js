@@ -25,14 +25,29 @@
     const isEUUser = window.GEO_DETECTION && window.GEO_DETECTION.isEU;
     const shouldIgnoreDNT = !isEUUser || config.ignore_dnt;
 
+    // 👉 Config Mixpanel avec autocapture activé
     const mixpanelConfig = {
       token: config.token.substring(0, 8) + "...",
       debug: config.debug || false,
       api_host: config.api_host || "default",
-      ignore_dnt: true,
-      track_pageview: false,
-      persistence: "cookie"
-    }
+
+      // si tu veux respecter DNT pour l’UE, tu peux brancher shouldIgnoreDNT
+      ignore_dnt: shouldIgnoreDNT,
+
+      track_pageview: false, // on laisse autocapture gérer les pages
+      persistence: "cookie",
+
+      autocapture: {
+        pageview: "full-url", // <--- active l'auto page tracking
+        click: false,
+        dead_click: false,
+        input: true,
+        rage_click: false,
+        scroll: false,
+        submit: true,
+        capture_text_content: false,
+      },
+    };
 
     if (config.api_host) {
       mixpanelConfig.api_host = config.api_host;
@@ -40,8 +55,14 @@
 
     mixpanel.init(config.token, mixpanelConfig);
     mixpanelInitialized = true;
+
+    debugLog("[Mixpanel] Initialized with autocapture config", mixpanelConfig);
+
+    // Si tu veux garder le tracking cross-site, on l'active après init
+    setupCrossSiteTracking();
   }
 
+  // Gestion consentement
   window.addEventListener("analytics-consent-granted", function () {
     debugLog("[Mixpanel] Analytics consent granted - initializing Mixpanel");
     initializeMixpanel();
@@ -79,48 +100,17 @@
     window.addEventListener("consent-manager-ready", checkConsentAndInit);
   }
 
-  function trackCurrentPage() {
-    const path = window.location.pathname;
-    const pageEvents = {
-      "/": "homepage_page_visited",
-      "/index.html": "homepage_page_visited",
-      "/pricing.html": "pricing_page_visited",
-      "/pricing": "pricing_page_visited",
-      "/contact.html": "contact_page_visited",
-      "/contact": "contact_page_visited",
-      "/blog.html": "blog_page_visited",
-      "/blog": "blog_page_visited",
-      "/contributors.html": "contributors_page_visited",
-      "/contributors": "contributors_page_visited",
-      "/users.html": "users_page_visited",
-      "/users": "users_page_visited",
-    };
-
-    if (path.startsWith("/docs/")) {
-      const props = { doc_path: path, doc_title: document.title };
-      mixpanel.track("documentation_visited", props);
-      debugLog("[Mixpanel] 📄 Page tracked: documentation_visited", props);
-      return;
-    }
-
-    if (path.startsWith("/blog/")) {
-      const props = { post_path: path, post_title: document.title };
-      mixpanel.track("blog_post_visited", props);
-      debugLog("[Mixpanel] 📄 Page tracked: blog_post_visited", props);
-      return;
-    }
-
-    const eventName = pageEvents[path];
-    if (eventName) {
-      const props = { page_path: path, page_title: document.title };
-      mixpanel.track(eventName, props);
-      debugLog("[Mixpanel] 📄 Page tracked:", eventName, props);
-    } else {
-      debugLog("[Mixpanel] ⚠️  No tracking event defined for path:", path);
-    }
-  }
+  // ❌ Plus besoin de trackCurrentPage si tu utilises autocapture.pageview
+  // function trackCurrentPage() { ... }
 
   function setupCrossSiteTracking() {
+    if (!mixpanelInitialized) {
+      debugLog(
+        "[Mixpanel] Cross-site tracking setup called before init - skipping."
+      );
+      return;
+    }
+
     const distinctId = mixpanel.get_distinct_id();
 
     document.querySelectorAll("a[data-track-cross-site]").forEach((link) => {
