@@ -111,7 +111,7 @@
       return;
     }
 
-    const distinctId = mixpanel.get_distinct_id();
+    const distinctId = mixpanel.get_device_id();
 
     document.querySelectorAll("a[data-track-cross-site]").forEach((link) => {
       try {
