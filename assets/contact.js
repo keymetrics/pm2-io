@@ -23,6 +23,10 @@ form.addEventListener('submit', (_e) => {
     comments: _e.target[6].value
   }
 
+  axios.post('https://pm2automationemgnzyhn-cohorts.functions.fnc.fr-par.scw.cloud', dt).then(res => {
+    console.log('Contact inquiry dispatched')
+  })
+
   axios.post('https://pc.cloud.pm2.io/contact', dt).then(res => {
     successMessage.classList.add('active')
     errorMessage.classList.remove('active')
