@@ -195,8 +195,17 @@
     border: 1px solid var(--border);
     border-radius: var(--radius-lg);
     min-width: 0;
-    padding: 0.9rem var(--lateral-gutter);
+    padding: 2rem var(--lateral-gutter);
     line-height: 1.6;
+
+    > :first-child {
+      margin-top: 0;
+    }
+
+    h1 {
+      font-size: 2rem;
+      font-weight: 700;
+    }
 
     h2 {
       font-size: 1.7rem;
@@ -239,6 +248,7 @@
       }
     }
 
+    h1,
     h2,
     h3,
     h4 {
@@ -251,10 +261,18 @@
       font-weight: bold;
     }
 
+    h1 a,
+    h2 a,
+    h3 a,
+    h4 a {
+      color: inherit;
+    }
+
     a:hover {
       text-decoration: underline;
     }
 
+    h1,
     h2,
     h3,
     h4,

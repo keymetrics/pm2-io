@@ -6,8 +6,7 @@ lang: en
 section: plus
 permalink: "/docs/plus/overview/"
 ---
-<br/>
-<h3>Welcome to the <b>PM2 Plus</b> documentation</h3>
+# Welcome to the **PM2 Plus** documentation
 
 Once you go serious about production, you need to make sure that your application is running properly, without bugs, without performance issues and without downtimes.
 
