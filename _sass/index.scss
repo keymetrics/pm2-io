@@ -28,7 +28,46 @@ body {
     flex: 1;
     display: flex;
     flex-direction: column;
+
+    // Blueprint frame: centered hairline rails with section rules and
+    // "+" markers at the intersections.
+    width: 100%;
+    max-width: 1280px;
+    margin: 0 auto;
+    border-left: 1px solid var(--border);
+    border-right: 1px solid var(--border);
+
+    > section:not(:last-child) {
+      border-bottom: 1px solid var(--border);
+
+      &::before,
+      &::after {
+        content: "+";
+        position: absolute;
+        bottom: -8px;
+        color: var(--text-dim);
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 1;
+        z-index: 2;
+      }
+
+      &::before {
+        left: -4px;
+      }
+
+      &::after {
+        right: -4px;
+      }
+    }
   }
+}
+
+@mixin blueprint-grid {
+  background-image:
+    linear-gradient(rgba(255, 255, 255, 0.035) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(255, 255, 255, 0.035) 1px, transparent 1px);
+  background-size: 96px 96px;
 }
 
 a {

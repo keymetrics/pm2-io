@@ -1,4 +1,6 @@
 .section-register {
+  @include blueprint-grid;
+
   .section-wrapper {
     margin: 140px auto 160px;
     @media #{$mobile} {

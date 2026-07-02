@@ -1,5 +1,7 @@
 
 .section-intro {
+  @include blueprint-grid;
+
   h1 {
     font-size: 52px;
     @media #{$mobile} {
