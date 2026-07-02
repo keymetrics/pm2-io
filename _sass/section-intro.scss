@@ -3,9 +3,15 @@
   @include blueprint-grid;
 
   h1 {
-    font-size: 52px;
+    font-size: 48px;
     @media #{$mobile} {
       font-size: 38px;
+    }
+  }
+
+  @media #{$not-mobile} {
+    .card-left {
+      min-width: 540px;
     }
   }
   .section-wrapper {

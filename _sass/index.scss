@@ -11,6 +11,34 @@ html {
   font-family: "Inter", sans-serif;
   overflow-x: hidden;
   font-size: 17px;
+
+  // Hide the page scrollbar (scrolling still works)
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+
+  &::-webkit-scrollbar {
+    display: none;
+  }
+}
+
+// Inner scrollable areas (code blocks, tables) keep a slim dark scrollbar
+* {
+  scrollbar-width: thin;
+  scrollbar-color: var(--border-strong) transparent;
+}
+
+*::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+*::-webkit-scrollbar-thumb {
+  background: var(--border-strong);
+  border-radius: 4px;
+}
+
+*::-webkit-scrollbar-track {
+  background: transparent;
 }
 
 body {
@@ -97,7 +125,7 @@ section {
 
   .header-wrapper {
     margin: 0 auto;
-    max-width: $frame-width;
+    max-width: $desktop-max-width;
     position: relative;
   }
 
@@ -115,17 +143,49 @@ header {
   padding-bottom: 0;
 
   .main-nav {
+    @media screen and (min-width: 1400px) {
+      margin: 0 -104px;
+    }
     padding: 0;
     height: 66px;
   }
 
+  .doc-links a {
+    font-size: 0.85rem;
+  }
+
+  .github-link {
+    display: inline-flex;
+    align-items: center;
+    margin-left: 16px;
+    color: var(--text-muted);
+    transition: color 0.2s;
+
+    &:hover {
+      color: var(--text);
+    }
+  }
+
   .logo-link img {
     width: auto;
-    height: 34px;
+    height: 44px;
   }
 }
 
 section {
+  padding-left: 64px;
+  padding-right: 64px;
+
+  @media #{$mobile} {
+    padding-left: 32px;
+    padding-right: 32px;
+  }
+
+  @media #{$small-mobile} {
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+
   &:last-child {
     flex: 1;
   }
@@ -274,7 +334,7 @@ section {
   display: grid;
   grid-template-columns: 1fr 2fr;
   grid-template-rows: auto auto;
-  grid-column-gap: 80px;
+  grid-column-gap: 48px;
   align-items: center;
 
   .card-left {
@@ -294,7 +354,7 @@ section {
   }
 
   .image-wrapper {
-    padding: 12px;
+    padding: 8px;
     background-color: var(--surface);
 
     img {
