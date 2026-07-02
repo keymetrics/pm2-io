@@ -16,6 +16,13 @@
         <div class="menu-content">
           <div class="doc-links">
             <a
+              href="{{ site.url }}/"
+              title="Go to Home"
+              class="{% if page.url == '/' %}current{% endif %}"
+            >
+              Home
+            </a>
+            <a
               href="{{ site.url }}/pricing"
               title="Go to Pricing"
               class="{% if page.url == '/pricing' %}current{% endif %}"
