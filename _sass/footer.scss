@@ -1,9 +1,16 @@
 
 footer {
+  border-top: 1px solid var(--border);
+  background: var(--bg-elevated);
+  padding-top: 60px;
+
   .section-wrapper {
     max-width: 1200px;
     margin: auto;
-    margin-top: -250px;
+  }
+
+  p {
+    color: var(--text-dim);
   }
 
   .doc-links {

@@ -1,10 +1,8 @@
 .section-register {
   .section-wrapper {
-    margin-top: -150px;
-    margin-bottom: 550px;
+    margin: 140px auto 160px;
     @media #{$mobile} {
-      margin-top: -240px;
-      margin-bottom: 271px;
+      margin: 80px auto 100px;
     }
 
     h1 {
@@ -12,13 +10,13 @@
       margin: auto;
       text-align: center;
       font-size: 45px;
-      text-transform: none;
     }
 
     p {
       margin: 50px auto;
       max-width: 1000px;
       text-align: center;
+      color: var(--text-muted);
     }
 
     .code-and-button {
