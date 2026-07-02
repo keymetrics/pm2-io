@@ -5,6 +5,7 @@ $not-small-mobile: "(min-width: 750px)";
 $mobile: "screen and (max-width: 999px)";
 $not-mobile: "(min-width: 1000px)";
 $desktop-max-width: 1200px;
+$frame-width: 1280px;
 
 html {
   font-family: "Inter", sans-serif;
@@ -32,7 +33,7 @@ body {
     // Blueprint frame: centered hairline rails with section rules and
     // "+" markers at the intersections.
     width: 100%;
-    max-width: 1280px;
+    max-width: $frame-width;
     margin: 0 auto;
     border-left: 1px solid var(--border);
     border-right: 1px solid var(--border);
@@ -96,7 +97,7 @@ section {
 
   .header-wrapper {
     margin: 0 auto;
-    max-width: $desktop-max-width;
+    max-width: $frame-width;
     position: relative;
   }
 
@@ -112,9 +113,6 @@ header {
   border-bottom: 1px solid var(--border);
 
   .main-nav {
-    @media screen and (min-width: 1400px) {
-      margin: 0 -104px;
-    }
     padding: 20px 0;
   }
 }
