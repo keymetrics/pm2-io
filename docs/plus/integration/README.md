@@ -6,6 +6,7 @@ lang: en
 section: plus
 hide_comments: true
 permalink: "/docs/plus/integration/"
+description: "This section will help you integrate PM2 Plus."
 ---
 
 # Integration

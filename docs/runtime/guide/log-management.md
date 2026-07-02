@@ -5,6 +5,7 @@ menu: starter
 lang: en
 section: runtime
 permalink: "/docs/runtime/guide/log-management/"
+description: "Logs are available at realtime and are saved into your hard disk."
 ---
 
 # Log management

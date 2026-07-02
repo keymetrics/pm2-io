@@ -327,19 +327,27 @@ section {
     }
   }
 
-  p {
+  p,
+  .card-text {
     line-height: 1.7;
     font-weight: 400;
     font-size: 1.1rem;
     color: var(--text-muted);
     margin: 40px 0;
 
-    h3 {
-      color: var(--text);
-    }
-
     b {
       color: var(--text);
+    }
+  }
+
+  .card-text {
+    h3 {
+      color: var(--text);
+      margin: 0 0 20px;
+    }
+
+    p {
+      margin: 0 0 24px;
     }
   }
 

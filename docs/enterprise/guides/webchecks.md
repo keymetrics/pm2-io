@@ -5,6 +5,7 @@ menu: starter
 lang: en
 section: enterprise
 permalink: "/docs/enterprise/guides/webchecks/"
+description: "When monitoring your infrastructure, there are two paths: you can monitor from the inside or from the outside. The whole Enterprise product is mostly a…"
 ---
 
 # Webchecks

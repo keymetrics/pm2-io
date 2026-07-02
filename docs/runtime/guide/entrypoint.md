@@ -5,6 +5,7 @@ menu: starter
 lang: en
 section: runtime
 permalink: "/docs/runtime/guide/entrypoint/"
+description: "The entrypoint.js lets you precisely contol your application flow and organize the link between the Node.js runtime and PM2."
 ---
 
 # Entrypoint

@@ -5,6 +5,7 @@ menu: starter
 lang: en
 section: runtime
 permalink: "/docs/runtime/guide/installation/"
+description: "By default, CLI autocompletion is not installed with PM2, we recommend it:"
 ---
 
 # Installation

@@ -5,6 +5,7 @@ menu: starter
 lang: en
 section: plus
 permalink: "/docs/plus/guide/custom-actions/"
+description: "Custom actions are function that you expose to PM2 Plus with @pm2/io so you are able to launch them from the dashboard. A example use case that everyone…"
 ---
 
 ![pm2io](https://raw.githubusercontent.com/keymetrics/branding/master/logos/pm2ioAPM/io-white.png)

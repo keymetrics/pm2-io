@@ -5,6 +5,7 @@ menu: starter
 lang: en
 section: runtime
 permalink: "/docs/runtime/integration/elastic-beanstalk/"
+description: "This docs will guide you step by step through the PM2 integration in an AWS Elastic Beanstalk environment."
 ---
 
 # Using PM2 with AWS Elastic Beanstalk

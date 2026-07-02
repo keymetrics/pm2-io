@@ -5,6 +5,7 @@ menu: starter
 lang: en
 section: plus
 permalink: "/docs/plus/guide/cpu-profiling/"
+description: "The CPU profiling tool helps you better understand how CPU is used with your application."
 ---
 
 # Overview

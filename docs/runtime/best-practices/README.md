@@ -6,6 +6,7 @@ lang: en
 section: runtime
 hide_comments: true
 permalink: "/docs/runtime/best-practices/"
+description: "This section gathers production best practices to make your app scalable from the beginning:"
 ---
 
 # Production Best Practices

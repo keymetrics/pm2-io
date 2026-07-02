@@ -5,6 +5,7 @@ menu: starter
 lang: en
 section: runtime
 permalink: "/docs/runtime/guide/startup-hook/"
+description: "The purpose of a startup hook is to save your process list and bring it back at machine restarts, even unexpected ones."
 ---
 
 # Startup Hook

@@ -5,6 +5,7 @@ menu: starter
 lang: en
 section: runtime
 permalink: "/docs/runtime/guide/load-balancing/"
+description: "The built-in load-balancer provides networked Node.js applications (http(s)/tcp/udp server) to be scaled across all CPUs available, without any code…"
 ---
 
 # Load-Balancing (cluster mode)

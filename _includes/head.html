@@ -1,8 +1,8 @@
 {% capture title %}
-  {% if page.title %}{{ site.title }} - {{ page.title }}{% else %}{{ site.title }} - Advanced Node.js process manager{% endif %}
+  {% if page.title contains 'PM2' %}{{ page.title }}{% elsif page.title %}{{ site.title }} - {{ page.title }}{% else %}{{ site.title }} - Advanced Node.js process manager{% endif %}
 {% endcapture %}
 {% capture description %}
-  {% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}
+  {% if page.description %}{{ page.description | strip_html | strip_newlines | truncate: 160 }}{% elsif page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}
 {% endcapture %}
 {% capture url %}
   {{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}
@@ -12,7 +12,6 @@
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <meta name="copyright" content="Keymetrics Inc." />
 <meta name="description" content="{{ description | strip | escape }}">
-<meta name="keywords" content="Node.js, PM2, process manager, monitoring, deployment, DevOps, application monitoring, Node.js hosting, server management">
 <meta name="robots" content="index, follow">
 <meta name="author" content="Keymetrics Inc.">
 <meta name="theme-color" content="#07080d">
@@ -21,8 +20,6 @@
 <meta name="apple-mobile-web-app-status-bar-style" content="default">
 <meta name="format-detection" content="telephone=no">
 <meta name="referrer" content="origin-when-cross-origin">
-<meta http-equiv="last-modified" content="{{ site.time | date: '%Y-%m-%d' }}">
-<meta name="revisit-after" content="7 days">
 
 <meta property="og:url" content="{{ url | strip | escape }}" />
 <meta property="og:type" content="website" />
@@ -51,6 +48,7 @@
 <link rel="icon" type="image/png" href="{{ site.url }}/favicon-16x16.png" sizes="16x16">
 <link rel="icon" type="image/png" href="{{ site.url }}/favicon-32x32.png" sizes="32x32">
 <link rel="icon" type="image/x-icon" href="{{ site.url }}/favicon.ico" />
+<link rel="apple-touch-icon" sizes="180x180" href="{{ site.url }}/apple-touch-icon.png">
 
 <!-- Structured Data -->
 <script type="application/ld+json">
@@ -60,7 +58,7 @@
   "name": "PM2.io",
   "alternateName": "Keymetrics",
   "url": "{{ site.url }}",
-  "logo": "{{ site.url }}/assets/logo.png",
+  "logo": "{{ site.url }}/assets/pm2-logo-1.png",
   "description": "{{ site.description | strip | escape }}",
   "foundingDate": "2013",
   "sameAs": [
@@ -91,11 +89,6 @@
   "url": "{{ site.url }}",
   "description": "{{ site.description | strip | escape }}",
   "inLanguage": "en-US",
-  "potentialAction": {
-    "@type": "SearchAction",
-    "target": "{{ site.url }}/search?q={search_term_string}",
-    "query-input": "required name=search_term_string"
-  },
   "publisher": {
     "@type": "Organization",
     "name": "Keymetrics Inc.",

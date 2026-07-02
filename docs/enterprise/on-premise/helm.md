@@ -5,6 +5,7 @@ menu: starter
 lang: en
 section: enterprise
 permalink: "/docs/enterprise/helm/"
+description: "Documentation about how to deploy the keymetrics on-premise version on Kubernetes using Helm"
 ---
 
 ## Deployment on Kubernetes with Helm

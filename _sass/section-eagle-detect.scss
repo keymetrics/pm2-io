@@ -16,8 +16,12 @@
     @media #{$mobile} {
       margin: 50px auto;
     }
-    h1 {
+    h2 {
       font-size: 35px;
+      font-weight: 700;
+      letter-spacing: -0.02em;
+      line-height: 1.2;
+      margin: 0;
     }
     .card {
       max-width: 1400px;

@@ -5,6 +5,7 @@ menu: starter
 lang: en
 section: runtime
 permalink: "/docs/runtime/integration/docker/"
+description: "Production ready Node.js Docker image including PM2."
 ---
 
 # Using PM2 with Docker

@@ -5,6 +5,7 @@ menu: starter
 lang: en
 section: runtime
 permalink: "/docs/runtime/best-practices/environment-variables/"
+description: "Environment variables are special variables that can be set out of your Node.js applications, particularly useful to make your application configurable…"
 ---
 
 # Environment Variables Management

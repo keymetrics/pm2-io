@@ -5,6 +5,7 @@ menu: starter
 lang: en
 section: runtime
 permalink: "/docs/runtime/guide/easy-deploy-with-ssh/"
+description: "In many deployment workflows, the routine basically consists of connecting with SSH to multiple servers, git pull the latest version, then reload the app."
 ---
 
 # Easy Deploy with SSH

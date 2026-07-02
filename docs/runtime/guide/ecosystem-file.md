@@ -6,6 +6,7 @@ lang: en
 section: runtime
 permalink: "/docs/runtime/guide/ecosystem-file/"
 redirect_to: "https://pm2.keymetrics.io/docs/usage/application-declaration/"
+description: "When deploying on multiple servers or when using multiple CLI arguments, an alternative to the command line becomes more convenient for starting your apps."
 ---
 
 # Ecosystem File

@@ -5,6 +5,7 @@ menu: starter
 lang: en
 section: plus
 permalink: "/docs/plus/guide/memory-snapshot/"
+description: "This feature help you diagnose memory issues in your application."
 ---
 
 # Overview

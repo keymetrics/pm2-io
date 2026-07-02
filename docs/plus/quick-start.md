@@ -5,6 +5,7 @@ menu: starter
 lang: en
 section: plus
 permalink: "/docs/plus/quick-start/"
+description: "In seconds, this Installation tutorial will show you how to start monitoring your Node.js application with PM2 Plus."
 ---
 
 # Installation

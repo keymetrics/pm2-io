@@ -5,6 +5,7 @@ menu: starter
 lang: en
 section: runtime
 permalink: "/docs/runtime/overview/"
+description: "Welcome to the Overview of PM2 Runtime! PM2 Runtime is a Production Process Manager for Node.js applications with a built-in Load Balancer. It allows you…"
 ---
 
 <p align="center">

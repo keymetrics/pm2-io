@@ -5,6 +5,7 @@ menu: starter
 lang: en
 section: plus
 permalink: "/docs/plus/guide/memory-profiling/"
+description: "Profiling tools help you diagnose memory issues in your application."
 ---
 
 # Memory profiling

@@ -6,6 +6,7 @@ lang: en
 section: runtime
 permalink: "/docs/runtime/quick-start/"
 redirect_to: "https://pm2.keymetrics.io/docs/usage/quick-start/"
+description: "In seconds, this Quick Start tutorial will show you how to set up to production a Node.js application with PM2."
 ---
 
 # Quick Start

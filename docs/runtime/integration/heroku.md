@@ -5,6 +5,7 @@ menu: starter
 lang: en
 section: runtime
 permalink: "/docs/runtime/integration/heroku/"
+description: "This docs will guide you step by step through the PM2 integration with Heroku."
 ---
 
 # Using PM2 with Heroku

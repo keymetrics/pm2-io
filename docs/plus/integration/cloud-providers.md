@@ -5,6 +5,7 @@ menu: starter
 lang: en
 section: plus
 permalink: "/docs/plus/integration/cloud-providers/"
+description: "In seconds, this tutorial will show you how to monitor a Node.js application with PM2 Plus in a cloud provider."
 ---
 
 # Monitor your Node.js app in a cloud provider

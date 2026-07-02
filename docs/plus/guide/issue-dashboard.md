@@ -5,6 +5,7 @@ menu: starter
 lang: en
 section: plus
 permalink: "/docs/plus/guide/issue-dashboard/"
+description: "By default when one of your applications crash, pm2 will of course automatically restart it but it will also send the error to PM2 Plus. In the issue…"
 ---
 
 # Issue dashboard

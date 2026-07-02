@@ -6,6 +6,7 @@ lang: en
 section: enterprise
 hide_comments: true
 permalink: "/docs/enterprise/frontend-monitoring/overview/"
+description: "Start monitoring your website frontend inside your PM2 dashboard. This will allow collecting and inspecting:"
 ---
 
 # Frontend Monitoring overview

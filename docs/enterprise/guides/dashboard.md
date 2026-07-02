@@ -6,6 +6,7 @@ lang: en
 section: enterprise
 hide_comments: true
 permalink: "/docs/enterprise/guides/dashboard/"
+description: "It's common in the devops culture to have a screen in your office that monitor the state your production apps. This feature is actually that. It allows…"
 ---
 
 # Overview

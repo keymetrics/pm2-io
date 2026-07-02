@@ -12,8 +12,11 @@
     margin: 80px auto 60px;
   }
 
-  .card-right img {
+  .card-right img,
+  .card-right video {
+    display: block;
     width: 100%;
+    height: auto;
     border: 1px solid var(--border);
     @media #{$mobile} {
       margin-top: 60px;

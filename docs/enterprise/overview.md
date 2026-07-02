@@ -6,6 +6,7 @@ lang: en
 section: enterprise
 hide_comments: true
 permalink: "/docs/enterprise/overview//"
+description: "PM2 Enterprise is an advanced Node.js toolset that is convenient for high scale or critical Node.js services. It answers to the need of companies willing…"
 ---
 
 # Welcome to the **PM2 Enterprise** documentation

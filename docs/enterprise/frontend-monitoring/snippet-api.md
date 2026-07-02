@@ -5,6 +5,7 @@ menu: starter
 lang: en
 section: enterprise
 permalink: "/docs/enterprise/frontend-monitoring/snippet-api/"
+description: "Once installed, you will be able to configure how your Website is monitored via the apm object. The apm object is only accessible through the pm2Ready…"
 ---
 
 # Frontend Monitoring snippet API
