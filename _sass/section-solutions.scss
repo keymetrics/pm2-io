@@ -3,13 +3,13 @@
     font-size: 25px;
   }
   a {
-    color: blue;
+    color: var(--accent-text);
     text-decoration: underline;
   }
 
   .section-wrapper {
     margin-top: 130px;
-    margin-bottom: 255px;
+    margin-bottom: 100px;
 
     @media #{$mobile} {
       margin-top: 90px;
@@ -19,7 +19,7 @@
   .logos {
     width: 100%;
     text-align: center;
-    color: #959595;
+    color: var(--text-dim);
     font-size: 19px;
     .logos-list {
       width: 100%;
@@ -62,9 +62,8 @@
     h1 {
       font-size: 35px;
       font-weight: 800;
-      color: #252525;
+      color: var(--text);
       text-align: center;
-      transition: uppercase;
     }
 
     .solution-grid {
@@ -77,10 +76,12 @@
       grid-column-gap: calc((100% - 975px)/2);
 
       .solution-card {
-        background: white;
+        background: var(--surface);
+        border: 1px solid var(--border);
+        border-radius: var(--radius-lg);
+        overflow: hidden;
         width: 325px;
         text-align: center;
-        box-shadow: 0px 0px 15px #999;
 
         .card-header {
           background: linear-gradient(to bottom right, #203047, #393e7e);
@@ -121,17 +122,13 @@
         }
 
         .digonal-border {
-          border-bottom: 50px solid white;
-          border-left: 325px solid transparent;
-          margin-top: -49px;
-          max-width: 300px
-
+          display: none;
         }
         .card-text {
           padding: 50px;
           padding-top: 15px;
           font-size: 18px;
-          color: #636363;
+          color: var(--text-muted);
         }
       }
 

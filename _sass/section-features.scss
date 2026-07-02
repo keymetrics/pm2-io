@@ -1,31 +1,14 @@
 .section-features {
   .section-wrapper {
-    margin-top: -50px;
-    margin-bottom: 250px;
+    margin: 80px auto;
     @media #{$mobile} {
-      margin-top: 90px;
-      margin-bottom: 171px;
+      margin: 60px auto;
     }
     .card {
       max-width: 1200px;
       margin: auto;
       margin-top: 105px;
       grid-template-columns: 2fr 1fr;
-
-      .card-left {
-        position: relative;
-
-        &::before {
-          position: absolute;
-          opacity: 0.4;
-          content: "";
-          top: 0;
-          left: 0;
-          width: 100%;
-          height: 100%;
-          background-size: contain;
-        }
-      }
 
       @media #{$mobile} {
         grid-template-columns: 1fr;

@@ -1,23 +1,18 @@
 .post {
 
-  background: linear-gradient(to bottom, #1b154a, #448ccb) !important;
-
-
   section:nth-child(7n + 2) {
-  	.section-background {
-    	background: linear-gradient(to bottom, #1b154a, #448ccb) !important;
-    }
-
     .section-wrapper {
-      padding-bottom: 500px;
+      padding-bottom: 80px;
     }
 
     .content {
     	max-width: 1200px;
 	    margin: auto;
-	    margin-top: -800px;
+	    margin-top: 60px;
       padding-bottom: 50px;
-	    background: #f6f6f6;
+	    background: var(--surface);
+	    border: 1px solid var(--border);
+	    border-radius: var(--radius-lg);
     	padding-top: 50px;
 
     	.container {
@@ -27,7 +22,7 @@
     	.left-padding-container {
     		padding: 50px 0;
     		padding-left: 50px;
-    		background: #f4f8f9;
+    		background: var(--bg-elevated);
     	}
 
     	.right-padding-container {
@@ -40,31 +35,29 @@
     		strong {
     			font-size: 65px;
     			font-weight: 800;
-    			color: #4974f1;
+    			color: var(--accent-text);
     			vertical-align: top;
     		}
     		span {
     			font-size: 28px;
     			font-weight: 800;
-    			color: #4974f1;
+    			color: var(--accent-text);
     			vertical-align: text-bottom;
     		}
     	}
 
     	h1, h2, h3, h4, h5 {
-    		color: #2c4c99;
-    		text-transform: uppercase;
+    		color: var(--text);
         padding: 0 25px;
     	}
 
     	strong {
-    		text-transform: uppercase;
-    		color: #252525;
+    		color: var(--text);
     	}
 
     	p {
         padding: 0 25px;
-    		color: #464646;
+    		color: var(--text-muted);
     		font-size: 18px;
     	}
 
@@ -116,11 +109,7 @@
   section:nth-child(7n + 3) {
 
   	.section-wrapper {
-      margin-top: -450px;
-    }
-
-  	.section-background {
-    	background: linear-gradient(to bottom, #172b54, #111f35) !important;
+      margin-top: 40px;
     }
 
     .article-grid {
