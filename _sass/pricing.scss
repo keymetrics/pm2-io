@@ -244,9 +244,13 @@
     .section-wrapper {
       padding-bottom: 100px;
 
+      .section-title {
+        margin: 44px 0 0;
+      }
+
       .questions-list {
         max-width: 1200px;
-        margin: 80px auto;
+        margin: 60px auto;
         z-index: 10;
 
         .two-columns {
