@@ -111,9 +111,17 @@ section {
 header {
   z-index: 20;
   border-bottom: 1px solid var(--border);
+  padding-top: 0;
+  padding-bottom: 0;
 
   .main-nav {
-    padding: 20px 0;
+    padding: 0;
+    height: 66px;
+  }
+
+  .logo-link img {
+    width: auto;
+    height: 34px;
   }
 }
 
