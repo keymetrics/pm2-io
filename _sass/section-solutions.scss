@@ -97,25 +97,20 @@
             margin: auto;
             padding-bottom: 20px;
             color: #ebecf0;
-            text-align: right;
             font-style: italic;
+            display: flex;
+            align-items: center;
 
             .blue-line {
-              width: 140px;
-              display: inline-block;
-              margin-bottom: 5px;
+              flex: 1;
               border-bottom: 3px solid #388ac3;
             }
             .green-line {
-              width: 170px;
-              display: inline-block;
-              margin-bottom: 5px;
+              flex: 1;
               border-bottom: 3px solid #0da693;
             }
             .purple-line {
-              width: 125px;
-              display: inline-block;
-              margin-bottom: 5px;
+              flex: 1;
               border-bottom: 3px solid #777fe7;
             }
           }

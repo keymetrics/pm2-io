@@ -14,7 +14,8 @@
         max-width: 1200px;
         width: 100%;
         margin: auto;
-
+        display: flex;
+        align-items: flex-start;
       }
 
       .mobile-price-container {
@@ -25,8 +26,9 @@
       .features {
         background: var(--surface);
         border: 1px solid var(--border);
-        width: calc(100% - 692px);
-        display: inline-block;
+        border-radius: var(--radius-lg) 0 0 var(--radius-lg);
+        flex: 1;
+        min-width: 0;
         color: var(--text-muted);
         padding: 30px 0;
         padding-top: 100px;
@@ -52,10 +54,8 @@
 
       .price-check {
         width: 690px;
-        display: inline-block;
-        vertical-align: top;
+        flex-shrink: 0;
         margin-top: -100px;
-        margin-left: -3.5px;
 
         .checks {
           text-align: center;
@@ -111,23 +111,19 @@
               margin: auto;
               color: #ebecf0;
               font-style: italic;
+              display: flex;
+              align-items: center;
 
               .blue-line {
-                width: calc(100% - 80px);
-                display: inline-block;
-                margin-bottom: 5px;
+                flex: 1;
                 border-bottom: 3px solid #388ac3;
               }
               .green-line {
-                width: calc(100% - 50px);
-                display: inline-block;
-                margin-bottom: 5px;
+                flex: 1;
                 border-bottom: 3px solid #0da693;
               }
               .purple-line {
-                width: calc(100% - 95px);
-                display: inline-block;
-                margin-bottom: 5px;
+                flex: 1;
                 border-bottom: 3px solid #777fe7;
               }
             }
